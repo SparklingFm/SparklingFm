@@ -61,9 +61,9 @@ provide("layout", {
 </script>
 <template>
   <div>
-    <no-api-key-view v-if="!apiKeyExists" />
+    <!-- <no-api-key-view v-if="!apiKeyExists" />
     <spinner v-else-if="loading"/>
-    <api-token-not-found v-else-if="error" />
+    <api-token-not-found v-else-if="error" /> -->
     <div>
       <Header :menu-items="items" :active-link="activeLink"/>
       <slot/>

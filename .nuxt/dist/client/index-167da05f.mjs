@@ -1,1 +1,0 @@
-import{_ as s,o,c as t,p as a,d as c,a as _}from"./entry-48a504ae.mjs";const d={},r=e=>(a("data-v-0156eaf8"),e=e(),c(),e),n={class:"header"},p=r(()=>_("h1",{class:"text-center"},"No shows yet!",-1)),h=[p];function i(e,f){return o(),t("div",n,h)}var x=s(d,[["render",i],["__scopeId","data-v-0156eaf8"]]);export{x as default};

@@ -4988,7 +4988,7 @@ const basicBlogLinks = [
   }
 ];
 const formatTime = (time) => new Date(time).toLocaleString();
-const _sfc_main$A = {
+const _sfc_main$z = {
   name: "BlogHeader",
   __ssrInlineRender: true,
   props: ["heading", "links", "text"],
@@ -5021,14 +5021,14 @@ const _sfc_main$A = {
     };
   }
 };
-const _sfc_setup$A = _sfc_main$A.setup;
-_sfc_main$A.setup = (props, ctx) => {
+const _sfc_setup$z = _sfc_main$z.setup;
+_sfc_main$z.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/BlogSections/BlogHeader.vue");
-  return _sfc_setup$A ? _sfc_setup$A(props, ctx) : void 0;
+  return _sfc_setup$z ? _sfc_setup$z(props, ctx) : void 0;
 };
-const BlogHeader = /* @__PURE__ */ _export_sfc(_sfc_main$A, [["__scopeId", "data-v-aadde774"]]);
-const _sfc_main$z = {
+const BlogHeader = /* @__PURE__ */ _export_sfc(_sfc_main$z, [["__scopeId", "data-v-aadde774"]]);
+const _sfc_main$y = {
   name: "Seo",
   __ssrInlineRender: true,
   props: ["title", "description", "image"],
@@ -5133,13 +5133,13 @@ const _sfc_main$z = {
     };
   }
 };
-const _sfc_setup$z = _sfc_main$z.setup;
-_sfc_main$z.setup = (props, ctx) => {
+const _sfc_setup$y = _sfc_main$y.setup;
+_sfc_main$y.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/Seo.vue");
-  return _sfc_setup$z ? _sfc_setup$z(props, ctx) : void 0;
+  return _sfc_setup$y ? _sfc_setup$y(props, ctx) : void 0;
 };
-const _sfc_main$y = {
+const _sfc_main$x = {
   name: "BlogWidget",
   __ssrInlineRender: true,
   props: ["categories"],
@@ -5169,11 +5169,11 @@ const _sfc_main$y = {
     };
   }
 };
-const _sfc_setup$y = _sfc_main$y.setup;
-_sfc_main$y.setup = (props, ctx) => {
+const _sfc_setup$x = _sfc_main$x.setup;
+_sfc_main$x.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/BlogSections/BlogWidget.vue");
-  return _sfc_setup$y ? _sfc_setup$y(props, ctx) : void 0;
+  return _sfc_setup$x ? _sfc_setup$x(props, ctx) : void 0;
 };
 let butterCMS = void 0;
 const butterCMS_a1f8d812 = defineNuxtPlugin((nuxtApp) => {
@@ -5211,7 +5211,7 @@ const useApiError = () => {
   };
   return __spreadProps(__spreadValues({}, vue_cjs_prod.toRefs(state)), { setError });
 };
-const _sfc_main$x = {
+const _sfc_main$w = {
   name: "BlogContentContainer",
   __ssrInlineRender: true,
   setup(__props) {
@@ -5220,20 +5220,20 @@ const _sfc_main$x = {
       _push(`<section${serverRenderer.exports.ssrRenderAttrs(vue_cjs_prod.mergeProps({ class: "blog-posts" }, _attrs))}><div class="container"><div class="row justify-content-center"><div class="col-12 col-lg-8 blog-roll-cards">`);
       serverRenderer.exports.ssrRenderSlot(_ctx.$slots, "default", {}, null, _push, _parent);
       _push(`</div><aside class="col-12 col-lg-4">`);
-      _push(serverRenderer.exports.ssrRenderComponent(_sfc_main$y, { categories: vue_cjs_prod.unref(categories) }, null, _parent));
+      _push(serverRenderer.exports.ssrRenderComponent(_sfc_main$x, { categories: vue_cjs_prod.unref(categories) }, null, _parent));
       _push(`</aside></div></div></section>`);
     };
   }
 };
-const _sfc_setup$x = _sfc_main$x.setup;
-_sfc_main$x.setup = (props, ctx) => {
+const _sfc_setup$w = _sfc_main$w.setup;
+_sfc_main$w.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/BlogSections/BlogContentContainer.vue");
-  return _sfc_setup$x ? _sfc_setup$x(props, ctx) : void 0;
+  return _sfc_setup$w ? _sfc_setup$w(props, ctx) : void 0;
 };
 const meta$7 = void 0;
 const placeholder = "data:image/png;base64,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";
-const _sfc_main$w = {
+const _sfc_main$v = {
   name: "SingleArticle",
   __ssrInlineRender: true,
   props: ["article"],
@@ -5276,28 +5276,28 @@ const _sfc_main$w = {
     };
   }
 };
-const _sfc_setup$w = _sfc_main$w.setup;
-_sfc_main$w.setup = (props, ctx) => {
-  const ssrContext = vue_cjs_prod.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/BlogSections/SingleArticle.vue");
-  return _sfc_setup$w ? _sfc_setup$w(props, ctx) : void 0;
-};
-const SingleArticle = /* @__PURE__ */ _export_sfc(_sfc_main$w, [["__scopeId", "data-v-4391404c"]]);
-const meta$6 = void 0;
-const _sfc_main$v = {
-  name: "ZeroData"
-};
-function _sfc_ssrRender$7(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<p${serverRenderer.exports.ssrRenderAttrs(_attrs)}>Sorry,No posts found matching this search.</p>`);
-}
 const _sfc_setup$v = _sfc_main$v.setup;
 _sfc_main$v.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/ZeroData.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/BlogSections/SingleArticle.vue");
   return _sfc_setup$v ? _sfc_setup$v(props, ctx) : void 0;
 };
-const ZeroData = /* @__PURE__ */ _export_sfc(_sfc_main$v, [["ssrRender", _sfc_ssrRender$7]]);
+const SingleArticle = /* @__PURE__ */ _export_sfc(_sfc_main$v, [["__scopeId", "data-v-4391404c"]]);
+const meta$6 = void 0;
 const _sfc_main$u = {
+  name: "ZeroData"
+};
+function _sfc_ssrRender$5(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<p${serverRenderer.exports.ssrRenderAttrs(_attrs)}>Sorry,No posts found matching this search.</p>`);
+}
+const _sfc_setup$u = _sfc_main$u.setup;
+_sfc_main$u.setup = (props, ctx) => {
+  const ssrContext = vue_cjs_prod.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/ZeroData.vue");
+  return _sfc_setup$u ? _sfc_setup$u(props, ctx) : void 0;
+};
+const ZeroData = /* @__PURE__ */ _export_sfc(_sfc_main$u, [["ssrRender", _sfc_ssrRender$5]]);
+const _sfc_main$t = {
   name: "BlogPostsList",
   __ssrInlineRender: true,
   props: ["blogPosts"],
@@ -5375,13 +5375,13 @@ const _sfc_main$u = {
     };
   }
 };
-const _sfc_setup$u = _sfc_main$u.setup;
-_sfc_main$u.setup = (props, ctx) => {
+const _sfc_setup$t = _sfc_main$t.setup;
+_sfc_main$t.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/BlogSections/BlogPostsList.vue");
-  return _sfc_setup$u ? _sfc_setup$u(props, ctx) : void 0;
+  return _sfc_setup$t ? _sfc_setup$t(props, ctx) : void 0;
 };
-const BlogPostsList = /* @__PURE__ */ _export_sfc(_sfc_main$u, [["__scopeId", "data-v-021c4334"]]);
+const BlogPostsList = /* @__PURE__ */ _export_sfc(_sfc_main$t, [["__scopeId", "data-v-021c4334"]]);
 const getBlogCategory = async (categorySlug) => {
   const response = await butterCMS.category.retrieve(categorySlug);
   return response.data.data;
@@ -5404,7 +5404,7 @@ const _imports_6 = buildAssetsURL("slide6.07b2f0ae.jpeg");
 const _imports_7 = buildAssetsURL("slide7.f8348cad.jpeg");
 const _imports_8 = buildAssetsURL("slide8.309a0ad2.jpeg");
 const _imports_9 = buildAssetsURL("slide9.a20924d3.jpeg");
-const _sfc_main$t = {
+const _sfc_main$s = {
   name: "HeroSection",
   __ssrInlineRender: true,
   props: ["fields"],
@@ -5448,14 +5448,14 @@ const _sfc_main$t = {
     };
   }
 };
-const _sfc_setup$t = _sfc_main$t.setup;
-_sfc_main$t.setup = (props, ctx) => {
+const _sfc_setup$s = _sfc_main$s.setup;
+_sfc_main$s.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/HomepageSections/HeroSection.vue");
-  return _sfc_setup$t ? _sfc_setup$t(props, ctx) : void 0;
+  return _sfc_setup$s ? _sfc_setup$s(props, ctx) : void 0;
 };
-const HeroSection = /* @__PURE__ */ _export_sfc(_sfc_main$t, [["__scopeId", "data-v-7b834702"]]);
-const _sfc_main$s = {
+const HeroSection = /* @__PURE__ */ _export_sfc(_sfc_main$s, [["__scopeId", "data-v-7b834702"]]);
+const _sfc_main$r = {
   name: "BlogPostTile",
   __ssrInlineRender: true,
   props: [
@@ -5509,13 +5509,13 @@ const _sfc_main$s = {
     };
   }
 };
-const _sfc_setup$s = _sfc_main$s.setup;
-_sfc_main$s.setup = (props, ctx) => {
+const _sfc_setup$r = _sfc_main$r.setup;
+_sfc_main$r.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/BlogPostTile.vue");
-  return _sfc_setup$s ? _sfc_setup$s(props, ctx) : void 0;
+  return _sfc_setup$r ? _sfc_setup$r(props, ctx) : void 0;
 };
-const _sfc_main$r = {
+const _sfc_main$q = {
   name: "BlogSection",
   __ssrInlineRender: true,
   props: ["blogPosts"],
@@ -5527,7 +5527,7 @@ const _sfc_main$r = {
         class: "blog-section"
       }, _attrs))}><div class="container"><div class="row justify-content-center"><div class="col-lg-6 col-md-10"><div class="section-title text-center"><h2>Latest News</h2><p></p></div></div></div><div class="row justify-content-center"><!--[-->`);
       serverRenderer.exports.ssrRenderList(__props.blogPosts, (blogPost, index2) => {
-        _push(serverRenderer.exports.ssrRenderComponent(_sfc_main$s, vue_cjs_prod.mergeProps({ key: index2 }, blogPost), null, _parent));
+        _push(serverRenderer.exports.ssrRenderComponent(_sfc_main$r, vue_cjs_prod.mergeProps({ key: index2 }, blogPost), null, _parent));
       });
       _push(`<!--]--></div><p>`);
       _push(serverRenderer.exports.ssrRenderComponent(_component_nuxt_link, {
@@ -5549,13 +5549,13 @@ const _sfc_main$r = {
     };
   }
 };
-const _sfc_setup$r = _sfc_main$r.setup;
-_sfc_main$r.setup = (props, ctx) => {
+const _sfc_setup$q = _sfc_main$q.setup;
+_sfc_main$q.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/HomepageSections/BlogSection.vue");
-  return _sfc_setup$r ? _sfc_setup$r(props, ctx) : void 0;
+  return _sfc_setup$q ? _sfc_setup$q(props, ctx) : void 0;
 };
-const _sfc_main$q = {
+const _sfc_main$p = {
   name: "HomeView",
   __ssrInlineRender: true,
   props: ["slug"],
@@ -5587,7 +5587,7 @@ const _sfc_main$q = {
     return (_ctx, _push, _parent, _attrs) => {
       const _component_nuxt_link = __nuxt_component_0$1;
       _push(`<div${serverRenderer.exports.ssrRenderAttrs(_attrs)} data-v-2c8d904c>`);
-      _push(serverRenderer.exports.ssrRenderComponent(vue_cjs_prod.unref(_sfc_main$z), vue_cjs_prod.unref(data).pageData.fields.seo, null, _parent));
+      _push(serverRenderer.exports.ssrRenderComponent(vue_cjs_prod.unref(_sfc_main$y), vue_cjs_prod.unref(data).pageData.fields.seo, null, _parent));
       _push(`<!--[-->`);
       serverRenderer.exports.ssrRenderList(vue_cjs_prod.unref(data).pageData.fields.body, (item, index2) => {
         _push(`<div data-v-2c8d904c>`);
@@ -5602,7 +5602,7 @@ const _sfc_main$q = {
         _push(`</div>`);
       });
       _push(`<!--]-->`);
-      _push(serverRenderer.exports.ssrRenderComponent(_sfc_main$r, {
+      _push(serverRenderer.exports.ssrRenderComponent(_sfc_main$q, {
         "blog-posts": vue_cjs_prod.unref(data).blogPosts
       }, null, _parent));
       _push(`<section class="category" data-v-2c8d904c><div class="widget categories-widget" data-v-2c8d904c><h5 class="widget-title" data-v-2c8d904c>Categories</h5><ul class="categories-list" data-v-2c8d904c><!--[-->`);
@@ -5628,13 +5628,13 @@ const _sfc_main$q = {
     };
   }
 };
-const _sfc_setup$q = _sfc_main$q.setup;
-_sfc_main$q.setup = (props, ctx) => {
+const _sfc_setup$p = _sfc_main$p.setup;
+_sfc_main$p.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("views/HomeView.vue");
-  return _sfc_setup$q ? _sfc_setup$q(props, ctx) : void 0;
+  return _sfc_setup$p ? _sfc_setup$p(props, ctx) : void 0;
 };
-const HomeView = /* @__PURE__ */ _export_sfc(_sfc_main$q, [["__scopeId", "data-v-2c8d904c"]]);
+const HomeView = /* @__PURE__ */ _export_sfc(_sfc_main$p, [["__scopeId", "data-v-2c8d904c"]]);
 const meta$1 = void 0;
 const meta = void 0;
 const routes = [
@@ -5931,7 +5931,7 @@ const _plugins = [
   butterCMS_a1f8d812,
   scroll_31efdce6
 ];
-const _sfc_main$p = {
+const _sfc_main$o = {
   name: "error-404",
   __ssrInlineRender: true,
   props: {
@@ -5993,14 +5993,14 @@ const _sfc_main$p = {
     };
   }
 };
-const _sfc_setup$p = _sfc_main$p.setup;
-_sfc_main$p.setup = (props, ctx) => {
+const _sfc_setup$o = _sfc_main$o.setup;
+_sfc_main$o.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("node_modules/@nuxt/ui-templates/dist/templates/error-404.vue");
-  return _sfc_setup$p ? _sfc_setup$p(props, ctx) : void 0;
+  return _sfc_setup$o ? _sfc_setup$o(props, ctx) : void 0;
 };
-const Error404 = /* @__PURE__ */ _export_sfc(_sfc_main$p, [["__scopeId", "data-v-011aae6d"]]);
-const _sfc_main$o = {
+const Error404 = /* @__PURE__ */ _export_sfc(_sfc_main$o, [["__scopeId", "data-v-011aae6d"]]);
+const _sfc_main$n = {
   name: "error-500",
   __ssrInlineRender: true,
   props: {
@@ -6041,14 +6041,14 @@ const _sfc_main$o = {
     };
   }
 };
-const _sfc_setup$o = _sfc_main$o.setup;
-_sfc_main$o.setup = (props, ctx) => {
+const _sfc_setup$n = _sfc_main$n.setup;
+_sfc_main$n.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("node_modules/@nuxt/ui-templates/dist/templates/error-500.vue");
-  return _sfc_setup$o ? _sfc_setup$o(props, ctx) : void 0;
+  return _sfc_setup$n ? _sfc_setup$n(props, ctx) : void 0;
 };
-const Error500 = /* @__PURE__ */ _export_sfc(_sfc_main$o, [["__scopeId", "data-v-6aee6495"]]);
-const _sfc_main$m = {
+const Error500 = /* @__PURE__ */ _export_sfc(_sfc_main$n, [["__scopeId", "data-v-6aee6495"]]);
+const _sfc_main$l = {
   name: "nuxt-error-page",
   __ssrInlineRender: true,
   props: {
@@ -6076,13 +6076,13 @@ const _sfc_main$m = {
     };
   }
 };
-const _sfc_setup$m = _sfc_main$m.setup;
-_sfc_main$m.setup = (props, ctx) => {
+const _sfc_setup$l = _sfc_main$l.setup;
+_sfc_main$l.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("node_modules/nuxt/dist/app/components/nuxt-error-page.vue");
-  return _sfc_setup$m ? _sfc_setup$m(props, ctx) : void 0;
+  return _sfc_setup$l ? _sfc_setup$l(props, ctx) : void 0;
 };
-const _sfc_main$l = {
+const _sfc_main$k = {
   name: "nuxt-root",
   __ssrInlineRender: true,
   setup(__props) {
@@ -6100,7 +6100,7 @@ const _sfc_main$l = {
       serverRenderer.exports.ssrRenderSuspense(_push, {
         default: () => {
           if (vue_cjs_prod.unref(error)) {
-            _push(serverRenderer.exports.ssrRenderComponent(vue_cjs_prod.unref(_sfc_main$m), { error: vue_cjs_prod.unref(error) }, null, _parent));
+            _push(serverRenderer.exports.ssrRenderComponent(vue_cjs_prod.unref(_sfc_main$l), { error: vue_cjs_prod.unref(error) }, null, _parent));
           } else {
             _push(serverRenderer.exports.ssrRenderComponent(_component_App, null, null, _parent));
           }
@@ -6110,11 +6110,11 @@ const _sfc_main$l = {
     };
   }
 };
-const _sfc_setup$l = _sfc_main$l.setup;
-_sfc_main$l.setup = (props, ctx) => {
+const _sfc_setup$k = _sfc_main$k.setup;
+_sfc_main$k.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("node_modules/nuxt/dist/app/components/nuxt-root.vue");
-  return _sfc_setup$l ? _sfc_setup$l(props, ctx) : void 0;
+  return _sfc_setup$k ? _sfc_setup$k(props, ctx) : void 0;
 };
 const layouts = {
   default: vue_cjs_prod.defineAsyncComponent(() => Promise.resolve().then(function() {
@@ -6139,8 +6139,8 @@ const __nuxt_component_0 = vue_cjs_prod.defineComponent({
     };
   }
 });
-const _sfc_main$k = {};
-function _sfc_ssrRender$6(_ctx, _push, _parent, _attrs) {
+const _sfc_main$j = {};
+function _sfc_ssrRender$4(_ctx, _push, _parent, _attrs) {
   const _component_NuxtLayout = __nuxt_component_0;
   const _component_NuxtPage = vue_cjs_prod.resolveComponent("NuxtPage");
   _push(serverRenderer.exports.ssrRenderComponent(_component_NuxtLayout, _attrs, {
@@ -6156,13 +6156,13 @@ function _sfc_ssrRender$6(_ctx, _push, _parent, _attrs) {
     _: 1
   }, _parent));
 }
-const _sfc_setup$k = _sfc_main$k.setup;
-_sfc_main$k.setup = (props, ctx) => {
+const _sfc_setup$j = _sfc_main$j.setup;
+_sfc_main$j.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("node_modules/nuxt/dist/pages/runtime/app.vue");
-  return _sfc_setup$k ? _sfc_setup$k(props, ctx) : void 0;
+  return _sfc_setup$j ? _sfc_setup$j(props, ctx) : void 0;
 };
-const AppComponent = /* @__PURE__ */ _export_sfc(_sfc_main$k, [["ssrRender", _sfc_ssrRender$6]]);
+const AppComponent = /* @__PURE__ */ _export_sfc(_sfc_main$j, [["ssrRender", _sfc_ssrRender$4]]);
 if (!globalThis.$fetch) {
   globalThis.$fetch = $fetch.create({
     baseURL: baseURL()
@@ -6172,7 +6172,7 @@ let entry;
 const plugins = normalizePlugins(_plugins);
 {
   entry = async function createNuxtAppServer(ssrContext = {}) {
-    const vueApp = vue_cjs_prod.createApp(_sfc_main$l);
+    const vueApp = vue_cjs_prod.createApp(_sfc_main$k);
     vueApp.component("App", AppComponent);
     const nuxt = createNuxtApp({ vueApp, ssrContext });
     try {
@@ -6186,8 +6186,8 @@ const plugins = normalizePlugins(_plugins);
   };
 }
 const entry$1 = (ctx) => entry(ctx);
-const _sfc_main$j = {};
-function _sfc_ssrRender$5(_ctx, _push, _parent, _attrs) {
+const _sfc_main$i = {};
+function _sfc_ssrRender$3(_ctx, _push, _parent, _attrs) {
   const _component_nuxt_link = __nuxt_component_0$1;
   _push(`<div${serverRenderer.exports.ssrRenderAttrs(vue_cjs_prod.mergeProps({
     class: "header",
@@ -6207,48 +6207,48 @@ function _sfc_ssrRender$5(_ctx, _push, _parent, _attrs) {
   }, _parent));
   _push(`<div class="download" data-v-13c46378><a href="../assets/files/advert.pdf" download="Advert" data-v-13c46378>Download our Adverts Rate</a></div></div></div>`);
 }
-const _sfc_setup$j = _sfc_main$j.setup;
-_sfc_main$j.setup = (props, ctx) => {
+const _sfc_setup$i = _sfc_main$i.setup;
+_sfc_main$i.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("pages/About/index.vue");
-  return _sfc_setup$j ? _sfc_setup$j(props, ctx) : void 0;
+  return _sfc_setup$i ? _sfc_setup$i(props, ctx) : void 0;
 };
-const index$a = /* @__PURE__ */ _export_sfc(_sfc_main$j, [["ssrRender", _sfc_ssrRender$5], ["__scopeId", "data-v-13c46378"]]);
+const index$a = /* @__PURE__ */ _export_sfc(_sfc_main$i, [["ssrRender", _sfc_ssrRender$3], ["__scopeId", "data-v-13c46378"]]);
 const index$b = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": index$a
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$i = {};
-function _sfc_ssrRender$4(_ctx, _push, _parent, _attrs) {
-  _push(`<div${serverRenderer.exports.ssrRenderAttrs(vue_cjs_prod.mergeProps({ class: "header" }, _attrs))} data-v-0d66a924><section data-v-0d66a924><div data-v-0d66a924><h2 data-v-0d66a924>Contact Sparkling FM</h2><div data-v-0d66a924><h4 data-v-0d66a924><b data-v-0d66a924>Address:</b></h4><p data-v-0d66a924> Sparkling Towers, Lemna Ikot Effangha Calabar, Cross River state, Nigeria </p></div><div data-v-0d66a924><h4 data-v-0d66a924><b data-v-0d66a924>Email:</b></h4><p data-v-0d66a924>sparkling923fm@gmail.com</p></div></div><div data-v-0d66a924><h2 data-v-0d66a924>For Marketing Enquiries</h2><section data-v-0d66a924><div data-v-0d66a924><h5 data-v-0d66a924>Joshua Moses</h5><p data-v-0d66a924>General Manager</p><p data-v-0d66a924>Joshuamose89@gmail.com</p><p data-v-0d66a924>07032404903</p></div><div data-v-0d66a924><h5 data-v-0d66a924>Peace Nsemo</h5><p data-v-0d66a924>Marketing Manager</p><p data-v-0d66a924>nsemopeace@gmail.com</p><p data-v-0d66a924>08035505348</p></div></section></div></section><div class="download" data-v-0d66a924><a href="../assets/files/advert.pdf" download="Advert" data-v-0d66a924>Advertisments? Click here -&gt;</a></div></div>`);
-}
-const _sfc_setup$i = _sfc_main$i.setup;
-_sfc_main$i.setup = (props, ctx) => {
-  const ssrContext = vue_cjs_prod.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("pages/Contact/index.vue");
-  return _sfc_setup$i ? _sfc_setup$i(props, ctx) : void 0;
-};
-const index$8 = /* @__PURE__ */ _export_sfc(_sfc_main$i, [["ssrRender", _sfc_ssrRender$4], ["__scopeId", "data-v-0d66a924"]]);
-const index$9 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
-  __proto__: null,
-  "default": index$8
-}, Symbol.toStringTag, { value: "Module" }));
 const _sfc_main$h = {};
-function _sfc_ssrRender$3(_ctx, _push, _parent, _attrs) {
-  _push(`<div${serverRenderer.exports.ssrRenderAttrs(vue_cjs_prod.mergeProps({ class: "header" }, _attrs))} data-v-47c451fa><div class="header" data-v-47c451fa><div data-v-47c451fa><div class="heading" id="hero-top" data-v-47c451fa><h1 class="text-center" style="${serverRenderer.exports.ssrRenderStyle({ "font": "size 2.5rem" })}" data-v-47c451fa>OAPs</h1></div><section class="flexbox" data-v-47c451fa><div class="card" id="sell-crypto" data-v-47c451fa><a href="https://ibb.co/MVvvdjG" data-v-47c451fa><img src="https://i.ibb.co/QNgg0qC/Whats-App-Image-2022-08-11-at-18-13-57.jpg" width="100%" alt="Whats-App-Image-2022-08-11-at-18-13-57" border="0" data-v-47c451fa></a><div class="container" data-v-47c451fa><h4 data-v-47c451fa><b data-v-47c451fa>Cinie Williams Ojeka</b></h4><p data-v-47c451fa>He&#39;s a dynamic presenter that speaks multiple Nigerian language. He is the host of The Sparkling Morning Show and Sports Cruise. </p></div></div><div class="card" id="borrow-crypto" data-v-47c451fa><img src="https://i.ibb.co/9VsQ2Lq/IMG-20220802-WA0000.jpg" width="100%" alt="IMG-20220802-WA0000" border="0" data-v-47c451fa><div class="container" data-v-47c451fa><h4 data-v-47c451fa><b data-v-47c451fa>Gloria Umoh</b></h4><p data-v-47c451fa>She is the host of our flagship Efik show Mkpon Editi. She is also a great reporter that has passion for stories empowering women to aspire to leadership position.</p></div></div><div class="card" id="sell-crypto" data-v-47c451fa><img src="https://i.ibb.co/LvVbWY9/Whats-App-Image-2022-08-11-at-18-13-58-1.jpg" width="100%" alt="Whats-App-Image-2022-08-11-at-18-13-58-1" border="0" data-v-47c451fa><div class="container" data-v-47c451fa><h4 data-v-47c451fa><b data-v-47c451fa>Essien Okon Essien</b></h4><p data-v-47c451fa>Essien is a cornerstone of our Efik show Mkpo Editi. He is concerned about promoting the Efik culture and he is a community leader.</p></div></div><div class="card socials" data-v-47c451fa><img src="https://i.ibb.co/kQTXp4C/JPEG-image-117-2.jpg" width="100%" alt="JPEG-image-117-2" border="0" data-v-47c451fa><div class="container" data-v-47c451fa><h4 data-v-47c451fa><b data-v-47c451fa>Miracle George</b></h4><p data-v-47c451fa>Popularly referred to a &quot;George Talent&quot;. He is the host of our flagship pidgin belt &quot;kpon kpo do&quot;. He also hosts the &quot;Saturday Morning Show&quot;. <br data-v-47c451fa> George is a comedian and events host.</p></div></div><div class="card" id="sell-crypto" data-v-47c451fa><img src="https://i.ibb.co/zx1w9w1/Screenshot-20220806-133652-Facebook-2-1.jpg" width="100%" alt="Screenshot-20220806-133652-Facebook-2-1" border="0" data-v-47c451fa><div class="container" data-v-47c451fa><h4 data-v-47c451fa><b data-v-47c451fa>Ukamaka Richards</b></h4><p data-v-47c451fa>Co-Host of the Sparkling Morning Show.Lead Anchor of the flagship program on the station \u201CLET\u2019S TALK NIGERIA\u2019\u2019 a daily 60 minutes audience participatory program dedicated to engaging with policy makers and analyzing topical issues affecting the Nigerian state at various levels with an aim to effect change. News Anchor on World news @7am on weekdays &amp; Sundays @7am &amp; @12noon.Anchor of the station&#39;s rural based health programme which airs every Saturdays by 10am. Host, Church On Radio \u{1F4FB}</p></div></div></section></div></div></div>`);
+function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
+  _push(`<div${serverRenderer.exports.ssrRenderAttrs(vue_cjs_prod.mergeProps({ class: "header" }, _attrs))} data-v-0d66a924><section data-v-0d66a924><div data-v-0d66a924><h2 data-v-0d66a924>Contact Sparkling FM</h2><div data-v-0d66a924><h4 data-v-0d66a924><b data-v-0d66a924>Address:</b></h4><p data-v-0d66a924> Sparkling Towers, Lemna Ikot Effangha Calabar, Cross River state, Nigeria </p></div><div data-v-0d66a924><h4 data-v-0d66a924><b data-v-0d66a924>Email:</b></h4><p data-v-0d66a924>sparkling923fm@gmail.com</p></div></div><div data-v-0d66a924><h2 data-v-0d66a924>For Marketing Enquiries</h2><section data-v-0d66a924><div data-v-0d66a924><h5 data-v-0d66a924>Joshua Moses</h5><p data-v-0d66a924>General Manager</p><p data-v-0d66a924>Joshuamose89@gmail.com</p><p data-v-0d66a924>07032404903</p></div><div data-v-0d66a924><h5 data-v-0d66a924>Peace Nsemo</h5><p data-v-0d66a924>Marketing Manager</p><p data-v-0d66a924>nsemopeace@gmail.com</p><p data-v-0d66a924>08035505348</p></div></section></div></section><div class="download" data-v-0d66a924><a href="../assets/files/advert.pdf" download="Advert" data-v-0d66a924>Advertisments? Click here -&gt;</a></div></div>`);
 }
 const _sfc_setup$h = _sfc_main$h.setup;
 _sfc_main$h.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("pages/Oap/index.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("pages/Contact/index.vue");
   return _sfc_setup$h ? _sfc_setup$h(props, ctx) : void 0;
 };
-const index$6 = /* @__PURE__ */ _export_sfc(_sfc_main$h, [["ssrRender", _sfc_ssrRender$3], ["__scopeId", "data-v-47c451fa"]]);
+const index$8 = /* @__PURE__ */ _export_sfc(_sfc_main$h, [["ssrRender", _sfc_ssrRender$2], ["__scopeId", "data-v-0d66a924"]]);
+const index$9 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
+  __proto__: null,
+  "default": index$8
+}, Symbol.toStringTag, { value: "Module" }));
+const _sfc_main$g = {};
+function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
+  _push(`<div${serverRenderer.exports.ssrRenderAttrs(vue_cjs_prod.mergeProps({ class: "header" }, _attrs))} data-v-47c451fa><div class="header" data-v-47c451fa><div data-v-47c451fa><div class="heading" id="hero-top" data-v-47c451fa><h1 class="text-center" style="${serverRenderer.exports.ssrRenderStyle({ "font": "size 2.5rem" })}" data-v-47c451fa>OAPs</h1></div><section class="flexbox" data-v-47c451fa><div class="card" id="sell-crypto" data-v-47c451fa><a href="https://ibb.co/MVvvdjG" data-v-47c451fa><img src="https://i.ibb.co/QNgg0qC/Whats-App-Image-2022-08-11-at-18-13-57.jpg" width="100%" alt="Whats-App-Image-2022-08-11-at-18-13-57" border="0" data-v-47c451fa></a><div class="container" data-v-47c451fa><h4 data-v-47c451fa><b data-v-47c451fa>Cinie Williams Ojeka</b></h4><p data-v-47c451fa>He&#39;s a dynamic presenter that speaks multiple Nigerian language. He is the host of The Sparkling Morning Show and Sports Cruise. </p></div></div><div class="card" id="borrow-crypto" data-v-47c451fa><img src="https://i.ibb.co/9VsQ2Lq/IMG-20220802-WA0000.jpg" width="100%" alt="IMG-20220802-WA0000" border="0" data-v-47c451fa><div class="container" data-v-47c451fa><h4 data-v-47c451fa><b data-v-47c451fa>Gloria Umoh</b></h4><p data-v-47c451fa>She is the host of our flagship Efik show Mkpon Editi. She is also a great reporter that has passion for stories empowering women to aspire to leadership position.</p></div></div><div class="card" id="sell-crypto" data-v-47c451fa><img src="https://i.ibb.co/LvVbWY9/Whats-App-Image-2022-08-11-at-18-13-58-1.jpg" width="100%" alt="Whats-App-Image-2022-08-11-at-18-13-58-1" border="0" data-v-47c451fa><div class="container" data-v-47c451fa><h4 data-v-47c451fa><b data-v-47c451fa>Essien Okon Essien</b></h4><p data-v-47c451fa>Essien is a cornerstone of our Efik show Mkpo Editi. He is concerned about promoting the Efik culture and he is a community leader.</p></div></div><div class="card socials" data-v-47c451fa><img src="https://i.ibb.co/kQTXp4C/JPEG-image-117-2.jpg" width="100%" alt="JPEG-image-117-2" border="0" data-v-47c451fa><div class="container" data-v-47c451fa><h4 data-v-47c451fa><b data-v-47c451fa>Miracle George</b></h4><p data-v-47c451fa>Popularly referred to a &quot;George Talent&quot;. He is the host of our flagship pidgin belt &quot;kpon kpo do&quot;. He also hosts the &quot;Saturday Morning Show&quot;. <br data-v-47c451fa> George is a comedian and events host.</p></div></div><div class="card" id="sell-crypto" data-v-47c451fa><img src="https://i.ibb.co/zx1w9w1/Screenshot-20220806-133652-Facebook-2-1.jpg" width="100%" alt="Screenshot-20220806-133652-Facebook-2-1" border="0" data-v-47c451fa><div class="container" data-v-47c451fa><h4 data-v-47c451fa><b data-v-47c451fa>Ukamaka Richards</b></h4><p data-v-47c451fa>Co-Host of the Sparkling Morning Show.Lead Anchor of the flagship program on the station \u201CLET\u2019S TALK NIGERIA\u2019\u2019 a daily 60 minutes audience participatory program dedicated to engaging with policy makers and analyzing topical issues affecting the Nigerian state at various levels with an aim to effect change. News Anchor on World news @7am on weekdays &amp; Sundays @7am &amp; @12noon.Anchor of the station&#39;s rural based health programme which airs every Saturdays by 10am. Host, Church On Radio \u{1F4FB}</p></div></div></section></div></div></div>`);
+}
+const _sfc_setup$g = _sfc_main$g.setup;
+_sfc_main$g.setup = (props, ctx) => {
+  const ssrContext = vue_cjs_prod.useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("pages/Oap/index.vue");
+  return _sfc_setup$g ? _sfc_setup$g(props, ctx) : void 0;
+};
+const index$6 = /* @__PURE__ */ _export_sfc(_sfc_main$g, [["ssrRender", _sfc_ssrRender$1], ["__scopeId", "data-v-47c451fa"]]);
 const index$7 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": index$6
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$g = {
+const _sfc_main$f = {
   name: "index",
   __ssrInlineRender: true,
   setup(__props) {
@@ -6258,33 +6258,33 @@ const _sfc_main$g = {
     };
   }
 };
-const _sfc_setup$g = _sfc_main$g.setup;
-_sfc_main$g.setup = (props, ctx) => {
+const _sfc_setup$f = _sfc_main$f.setup;
+_sfc_main$f.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("pages/Program/index.vue");
-  return _sfc_setup$g ? _sfc_setup$g(props, ctx) : void 0;
+  return _sfc_setup$f ? _sfc_setup$f(props, ctx) : void 0;
 };
-const index$4 = /* @__PURE__ */ _export_sfc(_sfc_main$g, [["__scopeId", "data-v-129554f0"]]);
+const index$4 = /* @__PURE__ */ _export_sfc(_sfc_main$f, [["__scopeId", "data-v-129554f0"]]);
 const index$5 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": index$4
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$f = {};
-function _sfc_ssrRender$2(_ctx, _push, _parent, _attrs) {
+const _sfc_main$e = {};
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
   _push(`<div${serverRenderer.exports.ssrRenderAttrs(vue_cjs_prod.mergeProps({ class: "header" }, _attrs))} data-v-0156eaf8><h1 class="text-center" data-v-0156eaf8>No shows yet!</h1></div>`);
 }
-const _sfc_setup$f = _sfc_main$f.setup;
-_sfc_main$f.setup = (props, ctx) => {
+const _sfc_setup$e = _sfc_main$e.setup;
+_sfc_main$e.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("pages/Shows/index.vue");
-  return _sfc_setup$f ? _sfc_setup$f(props, ctx) : void 0;
+  return _sfc_setup$e ? _sfc_setup$e(props, ctx) : void 0;
 };
-const index$2 = /* @__PURE__ */ _export_sfc(_sfc_main$f, [["ssrRender", _sfc_ssrRender$2], ["__scopeId", "data-v-0156eaf8"]]);
+const index$2 = /* @__PURE__ */ _export_sfc(_sfc_main$e, [["ssrRender", _sfc_ssrRender], ["__scopeId", "data-v-0156eaf8"]]);
 const index$3 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
   "default": index$2
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$e = {
+const _sfc_main$d = {
   name: "[post]",
   __ssrInlineRender: true,
   async setup(__props) {
@@ -6302,7 +6302,7 @@ const _sfc_main$e = {
     })), __temp = await __temp, __restore(), __temp);
     vue_cjs_prod.onMounted(refresh);
     return (_ctx, _push, _parent, _attrs) => {
-      const _component_seo = _sfc_main$z;
+      const _component_seo = _sfc_main$y;
       _push(`<div${serverRenderer.exports.ssrRenderAttrs(_attrs)}>`);
       _push(serverRenderer.exports.ssrRenderComponent(vue_cjs_prod.unref(SingleArticle), {
         article: vue_cjs_prod.unref(data).article
@@ -6316,17 +6316,17 @@ const _sfc_main$e = {
     };
   }
 };
-const _sfc_setup$e = _sfc_main$e.setup;
-_sfc_main$e.setup = (props, ctx) => {
+const _sfc_setup$d = _sfc_main$d.setup;
+_sfc_main$d.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("pages/blog/[post].vue");
-  return _sfc_setup$e ? _sfc_setup$e(props, ctx) : void 0;
+  return _sfc_setup$d ? _sfc_setup$d(props, ctx) : void 0;
 };
 const _post_ = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  "default": _sfc_main$e
+  "default": _sfc_main$d
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$d = {
+const _sfc_main$c = {
   name: "[category]",
   __ssrInlineRender: true,
   props: ["params"],
@@ -6358,17 +6358,17 @@ const _sfc_main$d = {
     };
   }
 };
-const _sfc_setup$d = _sfc_main$d.setup;
-_sfc_main$d.setup = (props, ctx) => {
+const _sfc_setup$c = _sfc_main$c.setup;
+_sfc_main$c.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("pages/blog/category/[category].vue");
-  return _sfc_setup$d ? _sfc_setup$d(props, ctx) : void 0;
+  return _sfc_setup$c ? _sfc_setup$c(props, ctx) : void 0;
 };
 const _category_ = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  "default": _sfc_main$d
+  "default": _sfc_main$c
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$c = {
+const _sfc_main$b = {
   name: "index",
   __ssrInlineRender: true,
   async setup(__props) {
@@ -6391,17 +6391,17 @@ const _sfc_main$c = {
     };
   }
 };
-const _sfc_setup$c = _sfc_main$c.setup;
-_sfc_main$c.setup = (props, ctx) => {
+const _sfc_setup$b = _sfc_main$b.setup;
+_sfc_main$b.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("pages/blog/index.vue");
-  return _sfc_setup$c ? _sfc_setup$c(props, ctx) : void 0;
+  return _sfc_setup$b ? _sfc_setup$b(props, ctx) : void 0;
 };
 const index$1 = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  "default": _sfc_main$c
+  "default": _sfc_main$b
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$b = {
+const _sfc_main$a = {
   name: "search",
   __ssrInlineRender: true,
   async setup(__props) {
@@ -6427,17 +6427,17 @@ const _sfc_main$b = {
     };
   }
 };
-const _sfc_setup$b = _sfc_main$b.setup;
-_sfc_main$b.setup = (props, ctx) => {
+const _sfc_setup$a = _sfc_main$a.setup;
+_sfc_main$a.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("pages/blog/search.vue");
-  return _sfc_setup$b ? _sfc_setup$b(props, ctx) : void 0;
+  return _sfc_setup$a ? _sfc_setup$a(props, ctx) : void 0;
 };
 const search = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  "default": _sfc_main$b
+  "default": _sfc_main$a
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$a = {
+const _sfc_main$9 = {
   name: "[tag]",
   __ssrInlineRender: true,
   async setup(__props) {
@@ -6472,17 +6472,17 @@ const _sfc_main$a = {
     };
   }
 };
-const _sfc_setup$a = _sfc_main$a.setup;
-_sfc_main$a.setup = (props, ctx) => {
+const _sfc_setup$9 = _sfc_main$9.setup;
+_sfc_main$9.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("pages/blog/tag/[tag].vue");
-  return _sfc_setup$a ? _sfc_setup$a(props, ctx) : void 0;
+  return _sfc_setup$9 ? _sfc_setup$9(props, ctx) : void 0;
 };
 const _tag_ = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  "default": _sfc_main$a
+  "default": _sfc_main$9
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$9 = {
+const _sfc_main$8 = {
   name: "blog",
   __ssrInlineRender: true,
   setup(__props) {
@@ -6514,7 +6514,7 @@ const _sfc_main$9 = {
         links: headerLinks.value,
         text: headerText.value
       }, null, _parent));
-      _push(serverRenderer.exports.ssrRenderComponent(vue_cjs_prod.unref(_sfc_main$x), null, {
+      _push(serverRenderer.exports.ssrRenderComponent(vue_cjs_prod.unref(_sfc_main$w), null, {
         default: vue_cjs_prod.withCtx((_, _push2, _parent2, _scopeId) => {
           if (_push2) {
             _push2(serverRenderer.exports.ssrRenderComponent(_component_NuxtPage, {
@@ -6530,7 +6530,7 @@ const _sfc_main$9 = {
         }),
         _: 1
       }, _parent));
-      _push(serverRenderer.exports.ssrRenderComponent(_sfc_main$z, {
+      _push(serverRenderer.exports.ssrRenderComponent(_sfc_main$y, {
         title: `SparklingFm - ${seoTitle.value}`,
         description: `A Radio station at the heart of Calabar, showing ${seoTitle.value}`
       }, null, _parent));
@@ -6538,17 +6538,17 @@ const _sfc_main$9 = {
     };
   }
 };
-const _sfc_setup$9 = _sfc_main$9.setup;
-_sfc_main$9.setup = (props, ctx) => {
+const _sfc_setup$8 = _sfc_main$8.setup;
+_sfc_main$8.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("pages/blog.vue");
-  return _sfc_setup$9 ? _sfc_setup$9(props, ctx) : void 0;
+  return _sfc_setup$8 ? _sfc_setup$8(props, ctx) : void 0;
 };
 const blog = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  "default": _sfc_main$9
+  "default": _sfc_main$8
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$8 = {
+const _sfc_main$7 = {
   name: "index",
   __ssrInlineRender: true,
   setup(__props) {
@@ -6557,17 +6557,17 @@ const _sfc_main$8 = {
     };
   }
 };
-const _sfc_setup$8 = _sfc_main$8.setup;
-_sfc_main$8.setup = (props, ctx) => {
+const _sfc_setup$7 = _sfc_main$7.setup;
+_sfc_main$7.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("pages/index.vue");
-  return _sfc_setup$8 ? _sfc_setup$8(props, ctx) : void 0;
+  return _sfc_setup$7 ? _sfc_setup$7(props, ctx) : void 0;
 };
 const index = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  "default": _sfc_main$8
+  "default": _sfc_main$7
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$7 = {
+const _sfc_main$6 = {
   name: "[slug]",
   __ssrInlineRender: true,
   setup(__props) {
@@ -6581,17 +6581,17 @@ const _sfc_main$7 = {
     };
   }
 };
-const _sfc_setup$7 = _sfc_main$7.setup;
-_sfc_main$7.setup = (props, ctx) => {
+const _sfc_setup$6 = _sfc_main$6.setup;
+_sfc_main$6.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("pages/landing-page/[slug].vue");
-  return _sfc_setup$7 ? _sfc_setup$7(props, ctx) : void 0;
+  return _sfc_setup$6 ? _sfc_setup$6(props, ctx) : void 0;
 };
 const _slug_ = /* @__PURE__ */ Object.freeze(/* @__PURE__ */ Object.defineProperty({
   __proto__: null,
-  "default": _sfc_main$7
+  "default": _sfc_main$6
 }, Symbol.toStringTag, { value: "Module" }));
-const _sfc_main$6 = {
+const _sfc_main$5 = {
   name: "Header",
   __ssrInlineRender: true,
   props: ["menuItems", "activeLink"],
@@ -6714,14 +6714,14 @@ const _sfc_main$6 = {
     };
   }
 };
-const _sfc_setup$6 = _sfc_main$6.setup;
-_sfc_main$6.setup = (props, ctx) => {
+const _sfc_setup$5 = _sfc_main$5.setup;
+_sfc_main$5.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/Header.vue");
-  return _sfc_setup$6 ? _sfc_setup$6(props, ctx) : void 0;
+  return _sfc_setup$5 ? _sfc_setup$5(props, ctx) : void 0;
 };
-const Header = /* @__PURE__ */ _export_sfc(_sfc_main$6, [["__scopeId", "data-v-78d7123e"]]);
-const _sfc_main$5 = {
+const Header = /* @__PURE__ */ _export_sfc(_sfc_main$5, [["__scopeId", "data-v-78d7123e"]]);
+const _sfc_main$4 = {
   name: "Footer",
   __ssrInlineRender: true,
   props: ["menuItems", "activeLink"],
@@ -6731,14 +6731,14 @@ const _sfc_main$5 = {
     };
   }
 };
-const _sfc_setup$5 = _sfc_main$5.setup;
-_sfc_main$5.setup = (props, ctx) => {
+const _sfc_setup$4 = _sfc_main$4.setup;
+_sfc_main$4.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/Footer.vue");
-  return _sfc_setup$5 ? _sfc_setup$5(props, ctx) : void 0;
+  return _sfc_setup$4 ? _sfc_setup$4(props, ctx) : void 0;
 };
-const Footer = /* @__PURE__ */ _export_sfc(_sfc_main$5, [["__scopeId", "data-v-58f1df96"]]);
-const _sfc_main$4 = {
+const Footer = /* @__PURE__ */ _export_sfc(_sfc_main$4, [["__scopeId", "data-v-58f1df96"]]);
+const _sfc_main$3 = {
   name: "ScrollToTop",
   __ssrInlineRender: true,
   setup(__props) {
@@ -6758,54 +6758,11 @@ const _sfc_main$4 = {
     };
   }
 };
-const _sfc_setup$4 = _sfc_main$4.setup;
-_sfc_main$4.setup = (props, ctx) => {
-  const ssrContext = vue_cjs_prod.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/ScrollToTop.vue");
-  return _sfc_setup$4 ? _sfc_setup$4(props, ctx) : void 0;
-};
-const _sfc_main$3 = {};
-function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
-  _push(`<div${serverRenderer.exports.ssrRenderAttrs(vue_cjs_prod.mergeProps({ class: "preloader" }, _attrs))}><div class="loader"><div class="spinner"><div class="spinner-container"><div class="spinner-rotator"><div class="spinner-left"><div class="spinner-circle"></div></div><div class="spinner-right"><div class="spinner-circle"></div></div></div></div></div></div></div>`);
-}
 const _sfc_setup$3 = _sfc_main$3.setup;
 _sfc_main$3.setup = (props, ctx) => {
   const ssrContext = vue_cjs_prod.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/Spinner.vue");
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/ScrollToTop.vue");
   return _sfc_setup$3 ? _sfc_setup$3(props, ctx) : void 0;
-};
-const Spinner = /* @__PURE__ */ _export_sfc(_sfc_main$3, [["ssrRender", _sfc_ssrRender$1]]);
-const _sfc_main$2 = {
-  name: "NoApiKeyView"
-};
-function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
-  _push(`<section${serverRenderer.exports.ssrRenderAttrs(vue_cjs_prod.mergeProps({
-    id: "home",
-    class: "hero-section"
-  }, _attrs))}><div class="container"><div class="row align-items-center"><div class="col-xl-6 col-lg-6 col-md-10"><div class="hero-content"><h1>Configure your ButterCMS API Token</h1><p>Please add NUXT_ENV_BUTTER_API_TOKEN to your <i>.env</i> file. Set the value as your Butter API Token.</p><a target="_blank" rel="noreferrer" href="https://buttercms.com/join/" class="main-btn btn-hover"> Get your free API token </a></div></div><div class="col-xxl-6 col-xl-6 col-lg-6"><img width="300" src="https://cdn.buttercms.com/9bPtzdJ6QSWkySNjlmyR" alt=""><div class="hero-image text-center text-lg-end"></div></div></div></div></section>`);
-}
-const _sfc_setup$2 = _sfc_main$2.setup;
-_sfc_main$2.setup = (props, ctx) => {
-  const ssrContext = vue_cjs_prod.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("views/NoApiKeyView.vue");
-  return _sfc_setup$2 ? _sfc_setup$2(props, ctx) : void 0;
-};
-const NoApiKeyView = /* @__PURE__ */ _export_sfc(_sfc_main$2, [["ssrRender", _sfc_ssrRender]]);
-const _sfc_main$1 = {
-  name: "ApiTokenNotFound",
-  __ssrInlineRender: true,
-  setup(__props) {
-    console.error("Your Butter token might be set to an invalid value. Please verify your token is correct.");
-    return (_ctx, _push, _parent, _attrs) => {
-      _push(`<div${serverRenderer.exports.ssrRenderAttrs(_attrs)}></div>`);
-    };
-  }
-};
-const _sfc_setup$1 = _sfc_main$1.setup;
-_sfc_main$1.setup = (props, ctx) => {
-  const ssrContext = vue_cjs_prod.useSSRContext();
-  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/ApiTokenNotFound.vue");
-  return _sfc_setup$1 ? _sfc_setup$1(props, ctx) : void 0;
 };
 const _sfc_main = {
   name: "default",
@@ -6814,9 +6771,9 @@ const _sfc_main = {
     const activeLink = vue_cjs_prod.ref("");
     const route = vueRouter_cjs.useRoute();
     const { items, loading } = useMenuItems();
-    const { error } = useApiError();
+    useApiError();
     const config = useRuntimeConfig();
-    const apiKeyExists = !!config.API_KEY;
+    !!config.API_KEY;
     vue_cjs_prod.onMounted(() => {
       window.addEventListener("load", scrollToSection);
       window.document.addEventListener("scroll", onScroll, { passive: true });
@@ -6856,23 +6813,13 @@ const _sfc_main = {
       handleMounted
     });
     return (_ctx, _push, _parent, _attrs) => {
-      _push(`<div${serverRenderer.exports.ssrRenderAttrs(_attrs)}>`);
-      if (!apiKeyExists) {
-        _push(serverRenderer.exports.ssrRenderComponent(vue_cjs_prod.unref(NoApiKeyView), null, null, _parent));
-      } else if (vue_cjs_prod.unref(loading)) {
-        _push(serverRenderer.exports.ssrRenderComponent(vue_cjs_prod.unref(Spinner), null, null, _parent));
-      } else if (vue_cjs_prod.unref(error)) {
-        _push(serverRenderer.exports.ssrRenderComponent(vue_cjs_prod.unref(_sfc_main$1), null, null, _parent));
-      } else {
-        _push(`<!---->`);
-      }
-      _push(`<div>`);
+      _push(`<div${serverRenderer.exports.ssrRenderAttrs(_attrs)}><div>`);
       _push(serverRenderer.exports.ssrRenderComponent(vue_cjs_prod.unref(Header), {
         "menu-items": vue_cjs_prod.unref(items),
         "active-link": activeLink.value
       }, null, _parent));
       serverRenderer.exports.ssrRenderSlot(_ctx.$slots, "default", {}, null, _push, _parent);
-      _push(serverRenderer.exports.ssrRenderComponent(vue_cjs_prod.unref(_sfc_main$4), null, null, _parent));
+      _push(serverRenderer.exports.ssrRenderComponent(vue_cjs_prod.unref(_sfc_main$3), null, null, _parent));
       _push(serverRenderer.exports.ssrRenderComponent(vue_cjs_prod.unref(Footer), {
         "menu-items": vue_cjs_prod.unref(items),
         "active-link": activeLink.value
