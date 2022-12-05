@@ -1,34 +1,34 @@
 
 // --------------------
-// Request: /Users/achufam/Desktop/SparklingFM-main/node_modules/nuxt/dist/app/entry
+// Request: /Users/achufam/Documents/SparklingFm/node_modules/nuxt/dist/app/entry
 // Parents: 
 // - <entry> ($id_c757eb9e)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/ohmyfetch/dist/index.mjs ($id_780217c4)
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/paths.mjs ($id_d07d0de1)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/paths.mjs ($id_c021903a)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/css.mjs ($id_35131a7a)
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/plugins/server.mjs ($id_e424d021)
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/root-component.mjs ($id_6c2be3a5)
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/app-component.mjs ($id_b208ec03)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/css.mjs ($id_3ba285af)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/plugins/server.mjs ($id_bf0ff625)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/root-component.mjs ($id_96ece93f)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/app-component.mjs ($id_6cc2017c)
 // --------------------
-const $id_e2d4f336 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_9f7b5aaa = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/ohmyfetch/dist/index.mjs");
 
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/paths.mjs");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/paths.mjs");
 
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/css.mjs");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/css.mjs");
 
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/plugins/server.mjs");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/plugins/server.mjs");
 
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/root-component.mjs");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/root-component.mjs");
 
-const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/app-component.mjs");
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/app-component.mjs");
 
 if (!globalThis.$fetch) {
   globalThis.$fetch = __vite_ssr_import_1__.$fetch.create({
@@ -93,7 +93,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // --------------------
 // Request: /node_modules/vue/dist/vue.cjs.js
 // Parents: 
-// - /Users/achufam/Desktop/SparklingFM-main/node_modules/nuxt/dist/app/entry ($id_e2d4f336)
+// - /Users/achufam/Documents/SparklingFm/node_modules/nuxt/dist/app/entry ($id_9f7b5aaa)
 // - /node_modules/nuxt/dist/app/nuxt.mjs ($id_e069d411)
 // - /node_modules/nuxt/dist/app/composables/component.mjs ($id_53345950)
 // - /node_modules/nuxt/dist/app/composables/asyncData.mjs ($id_d5b6a221)
@@ -103,7 +103,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /node_modules/nuxt/dist/app/composables/cookie.mjs ($id_511b441d)
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
 // - /node_modules/nuxt/dist/head/runtime/composables.mjs ($id_04ea9504)
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/components.plugin.mjs ($id_bde39631)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/components.plugin.mjs ($id_9315a766)
 // - /node_modules/@vueuse/head/dist/index.mjs ($id_c032264e)
 // - /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs ($id_e6f12003)
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_a2650341)
@@ -155,13 +155,13 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 // - /pages/landing-page/[slug].vue ($id_1fcaf73d)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
 // - /node_modules/nuxt/dist/app/compat/capi.mjs ($id_0c5717a4)
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/imports.mjs ($id_7af1a9d5)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/imports.mjs ($id_a86add8e)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue ($id_bc2d74a1)
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/layouts.mjs ($id_bd071dc7)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/layouts.mjs ($id_7a713443)
 // - /layouts/default.vue ($id_7689e89d)
 // - /components/Header.vue ($id_4e284fc3)
 // - /components/Footer.vue ($id_f3d8f325)
@@ -174,7 +174,7 @@ __vite_ssr_exports__.default = (ctx) => entry(ctx);
 
 // --------------------
 const $id_60f0615f = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/vue/dist/vue.cjs.js")
+import("file:///Users/achufam/Documents/SparklingFm/node_modules/vue/dist/vue.cjs.js")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -183,19 +183,19 @@ import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/vue/dist/vue
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"/Users/achufam/Desktop/SparklingFM-main/node_modules/vue/dist/vue.cjs.js\".")
+    throw new Error("[vite dev] Error loading external \"/Users/achufam/Documents/SparklingFm/node_modules/vue/dist/vue.cjs.js\".")
   })
 
 
 // --------------------
 // Request: /node_modules/ohmyfetch/dist/index.mjs
 // Parents: 
-// - /Users/achufam/Desktop/SparklingFM-main/node_modules/nuxt/dist/app/entry ($id_e2d4f336)
+// - /Users/achufam/Documents/SparklingFm/node_modules/nuxt/dist/app/entry ($id_9f7b5aaa)
 // Dependencies: 
 
 // --------------------
 const $id_780217c4 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/ohmyfetch/dist/index.mjs")
+import("file:///Users/achufam/Documents/SparklingFm/node_modules/ohmyfetch/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -204,18 +204,18 @@ import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/ohmyfetch/di
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"/Users/achufam/Desktop/SparklingFM-main/node_modules/ohmyfetch/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"/Users/achufam/Documents/SparklingFm/node_modules/ohmyfetch/dist/index.mjs\".")
   })
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/paths.mjs
+// Request: /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/paths.mjs
 // Parents: 
-// - /Users/achufam/Desktop/SparklingFM-main/node_modules/nuxt/dist/app/entry ($id_e2d4f336)
+// - /Users/achufam/Documents/SparklingFm/node_modules/nuxt/dist/app/entry ($id_9f7b5aaa)
 // Dependencies: 
 // - /node_modules/ufo/dist/index.mjs ($id_614de060)
 // --------------------
-const $id_d07d0de1 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_c021903a = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/ufo/dist/index.mjs");
 
 const appConfig = {"baseURL":"/","buildAssetsDir":"/_nuxt/","assetsPath":{},"cdnURL":"","head":{"charset":"utf-8","viewport":"width=device-width, initial-scale=1","meta":[],"link":[],"style":[],"script":[]}}
@@ -236,7 +236,7 @@ Object.defineProperty(__vite_ssr_exports__, "publicAssetsURL", { enumerable: tru
 // --------------------
 // Request: /node_modules/ufo/dist/index.mjs
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/paths.mjs ($id_d07d0de1)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/paths.mjs ($id_c021903a)
 // - /node_modules/nuxt/dist/app/composables/router.mjs ($id_db4d90a8)
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
@@ -244,7 +244,7 @@ Object.defineProperty(__vite_ssr_exports__, "publicAssetsURL", { enumerable: tru
 
 // --------------------
 const $id_614de060 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/ufo/dist/index.mjs")
+import("file:///Users/achufam/Documents/SparklingFm/node_modules/ufo/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -253,14 +253,14 @@ import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/ufo/dist/ind
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"/Users/achufam/Desktop/SparklingFM-main/node_modules/ufo/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"/Users/achufam/Documents/SparklingFm/node_modules/ufo/dist/index.mjs\".")
   })
 
 
 // --------------------
 // Request: /node_modules/nuxt/dist/app/index.mjs
 // Parents: 
-// - /Users/achufam/Desktop/SparklingFM-main/node_modules/nuxt/dist/app/entry ($id_e2d4f336)
+// - /Users/achufam/Documents/SparklingFm/node_modules/nuxt/dist/app/entry ($id_9f7b5aaa)
 // - /node_modules/nuxt/dist/app/composables/asyncData.mjs ($id_d5b6a221)
 // - /node_modules/nuxt/dist/app/composables/hydrate.mjs ($id_0063df1b)
 // - /node_modules/nuxt/dist/app/composables/state.mjs ($id_7d872108)
@@ -292,7 +292,7 @@ import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/ufo/dist/ind
 // - /middleware/forceTrailingSlashes.global.js ($id_efa78af8)
 // - /plugins/Scroll.ts ($id_21096d78)
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/imports.mjs ($id_7af1a9d5)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/imports.mjs ($id_a86add8e)
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /layouts/default.vue ($id_7689e89d)
 // Dependencies: 
@@ -489,7 +489,7 @@ function defineGetter(obj, key, val) {
 
 // --------------------
 const $id_a2c811c4 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/hookable/dist/index.mjs")
+import("file:///Users/achufam/Documents/SparklingFm/node_modules/hookable/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -498,7 +498,7 @@ import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/hookable/dis
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"/Users/achufam/Desktop/SparklingFM-main/node_modules/hookable/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"/Users/achufam/Documents/SparklingFm/node_modules/hookable/dist/index.mjs\".")
   })
 
 
@@ -510,7 +510,7 @@ import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/hookable/dis
 
 // --------------------
 const $id_a569ca2d = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/unctx/dist/index.mjs")
+import("file:///Users/achufam/Documents/SparklingFm/node_modules/unctx/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -519,7 +519,7 @@ import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/unctx/dist/i
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"/Users/achufam/Desktop/SparklingFM-main/node_modules/unctx/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"/Users/achufam/Documents/SparklingFm/node_modules/unctx/dist/index.mjs\".")
   })
 
 
@@ -651,7 +651,7 @@ Object.defineProperty(__vite_ssr_exports__, "legacyPlugin", { enumerable: true, 
 
 // --------------------
 const $id_39e12da7 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/unenv/runtime/mock/proxy.mjs")
+import("file:///Users/achufam/Documents/SparklingFm/node_modules/unenv/runtime/mock/proxy.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -660,7 +660,7 @@ import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/unenv/runtim
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"/Users/achufam/Desktop/SparklingFM-main/node_modules/unenv/runtime/mock/proxy.mjs\".")
+    throw new Error("[vite dev] Error loading external \"/Users/achufam/Documents/SparklingFm/node_modules/unenv/runtime/mock/proxy.mjs\".")
   })
 
 
@@ -800,7 +800,7 @@ Object.defineProperty(__vite_ssr_exports__, "defineNuxtComponent", { enumerable:
 
 // --------------------
 const $id_f9a4a698 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/vue-router/dist/vue-router.cjs.js")
+import("file:///Users/achufam/Documents/SparklingFm/node_modules/vue-router/dist/vue-router.cjs.js")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -809,7 +809,7 @@ import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/vue-router/d
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"/Users/achufam/Desktop/SparklingFM-main/node_modules/vue-router/dist/vue-router.cjs.js\".")
+    throw new Error("[vite dev] Error loading external \"/Users/achufam/Documents/SparklingFm/node_modules/vue-router/dist/vue-router.cjs.js\".")
   })
 
 
@@ -1131,7 +1131,7 @@ Object.defineProperty(__vite_ssr_exports__, "useLazyFetch", { enumerable: true, 
 
 // --------------------
 const $id_b1b82cf3 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/ohash/dist/index.mjs")
+import("file:///Users/achufam/Documents/SparklingFm/node_modules/ohash/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1140,7 +1140,7 @@ import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/ohash/dist/i
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"/Users/achufam/Desktop/SparklingFM-main/node_modules/ohash/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"/Users/achufam/Documents/SparklingFm/node_modules/ohash/dist/index.mjs\".")
   })
 
 
@@ -1233,7 +1233,7 @@ function writeServerCookie(event, name, value, opts = {}) {
 
 // --------------------
 const $id_f4975261 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/cookie-es/dist/index.mjs")
+import("file:///Users/achufam/Documents/SparklingFm/node_modules/cookie-es/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1242,7 +1242,7 @@ import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/cookie-es/di
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"/Users/achufam/Desktop/SparklingFM-main/node_modules/cookie-es/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"/Users/achufam/Documents/SparklingFm/node_modules/cookie-es/dist/index.mjs\".")
   })
 
 
@@ -1256,7 +1256,7 @@ import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/cookie-es/di
 
 // --------------------
 const $id_57d7ded6 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/h3/dist/index.mjs")
+import("file:///Users/achufam/Documents/SparklingFm/node_modules/h3/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1265,7 +1265,7 @@ import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/h3/dist/inde
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"/Users/achufam/Desktop/SparklingFM-main/node_modules/h3/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"/Users/achufam/Documents/SparklingFm/node_modules/h3/dist/index.mjs\".")
   })
 
 
@@ -1277,7 +1277,7 @@ import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/h3/dist/inde
 
 // --------------------
 const $id_03d15ecd = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/destr/dist/index.mjs")
+import("file:///Users/achufam/Documents/SparklingFm/node_modules/destr/dist/index.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1286,7 +1286,7 @@ import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/destr/dist/i
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"/Users/achufam/Desktop/SparklingFM-main/node_modules/destr/dist/index.mjs\".")
+    throw new Error("[vite dev] Error loading external \"/Users/achufam/Documents/SparklingFm/node_modules/destr/dist/index.mjs\".")
   })
 
 
@@ -1556,7 +1556,7 @@ __vite_ssr_exports__.default = defineNuxtLink({ componentName: "NuxtLink" });
 // Request: /node_modules/nuxt/dist/head/runtime/index.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/imports.mjs ($id_7af1a9d5)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/imports.mjs ($id_a86add8e)
 // Dependencies: 
 // - /node_modules/nuxt/dist/head/runtime/composables.mjs ($id_04ea9504)
 // --------------------
@@ -1606,7 +1606,7 @@ Object.defineProperty(__vite_ssr_exports__, "useMeta", { enumerable: true, confi
 
 // --------------------
 const $id_852b06a2 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/@vue/shared/dist/shared.cjs.js")
+import("file:///Users/achufam/Documents/SparklingFm/node_modules/@vue/shared/dist/shared.cjs.js")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -1615,21 +1615,21 @@ import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/@vue/shared/
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"/Users/achufam/Desktop/SparklingFM-main/node_modules/@vue/shared/dist/shared.cjs.js\".")
+    throw new Error("[vite dev] Error loading external \"/Users/achufam/Documents/SparklingFm/node_modules/@vue/shared/dist/shared.cjs.js\".")
   })
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/css.mjs
+// Request: /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/css.mjs
 // Parents: 
-// - /Users/achufam/Desktop/SparklingFM-main/node_modules/nuxt/dist/app/entry ($id_e2d4f336)
+// - /Users/achufam/Documents/SparklingFm/node_modules/nuxt/dist/app/entry ($id_9f7b5aaa)
 // Dependencies: 
 // - /assets/css/bootstrap.min.css ($id_e32fc5b4)
 // - /assets/css/main.css ($id_f8b2993b)
 // - /assets/css/lineicons.css ($id_2fd4ffbb)
 // - /assets/css/tiny-slider.css ($id_2421dc92)
 // --------------------
-const $id_35131a7a = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_3ba285af = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/assets/css/bootstrap.min.css");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/assets/css/main.css");
@@ -1644,7 +1644,7 @@ const __vite_ssr_import_3__ = await __vite_ssr_import__("/assets/css/tiny-slider
 // --------------------
 // Request: /assets/css/bootstrap.min.css
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/css.mjs ($id_35131a7a)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/css.mjs ($id_3ba285af)
 // Dependencies: 
 
 // --------------------
@@ -1656,7 +1656,7 @@ __vite_ssr_exports__.default = "@charset \"UTF-8\";\n/*!\n * Bootstrap v5.1.0 (h
 // --------------------
 // Request: /assets/css/main.css
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/css.mjs ($id_35131a7a)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/css.mjs ($id_3ba285af)
 // Dependencies: 
 
 // --------------------
@@ -1668,7 +1668,7 @@ __vite_ssr_exports__.default = "@charset \"UTF-8\";@import url(\"https://fonts.g
 // --------------------
 // Request: /assets/css/lineicons.css
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/css.mjs ($id_35131a7a)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/css.mjs ($id_3ba285af)
 // Dependencies: 
 
 // --------------------
@@ -1680,7 +1680,7 @@ __vite_ssr_exports__.default = "@font-face{font-family:\"LineIcons\";font-style:
 // --------------------
 // Request: /assets/css/tiny-slider.css
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/css.mjs ($id_35131a7a)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/css.mjs ($id_3ba285af)
 // Dependencies: 
 
 // --------------------
@@ -1690,22 +1690,22 @@ __vite_ssr_exports__.default = ".tns-outer{padding:0!important}.tns-outer [hidde
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/plugins/server.mjs
+// Request: /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/plugins/server.mjs
 // Parents: 
-// - /Users/achufam/Desktop/SparklingFM-main/node_modules/nuxt/dist/app/entry ($id_e2d4f336)
+// - /Users/achufam/Documents/SparklingFm/node_modules/nuxt/dist/app/entry ($id_9f7b5aaa)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/plugins/preload.server.mjs ($id_9871bba0)
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/components.plugin.mjs ($id_bde39631)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/components.plugin.mjs ($id_9315a766)
 // - /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs ($id_e6f12003)
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_a2650341)
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
 // - /plugins/ButterCMS.ts ($id_ba9ceed3)
 // - /plugins/Scroll.ts ($id_21096d78)
 // --------------------
-const $id_e424d021 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_bf0ff625 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/plugins/preload.server.mjs");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/components.plugin.mjs");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/components.plugin.mjs");
 
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs");
 
@@ -1732,7 +1732,7 @@ __vite_ssr_exports__.default = [
 // --------------------
 // Request: /node_modules/nuxt/dist/app/plugins/preload.server.mjs
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/plugins/server.mjs ($id_e424d021)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/plugins/server.mjs ($id_bf0ff625)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
 // --------------------
@@ -1753,13 +1753,13 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineNuxtPlugin((nuxtApp) 
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/components.plugin.mjs
+// Request: /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/components.plugin.mjs
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/plugins/server.mjs ($id_e424d021)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/plugins/server.mjs ($id_bf0ff625)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // --------------------
-const $id_bde39631 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_9315a766 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 
@@ -1778,7 +1778,7 @@ __vite_ssr_exports__.default = function (nuxtApp) {
 // --------------------
 // Request: /node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/plugins/server.mjs ($id_e424d021)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/plugins/server.mjs ($id_bf0ff625)
 // Dependencies: 
 // - /node_modules/@vueuse/head/dist/index.mjs ($id_c032264e)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -2261,7 +2261,7 @@ Object.defineProperty(__vite_ssr_exports__, "useHead", { enumerable: true, confi
 
 // --------------------
 const $id_d7afab65 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/defu/dist/defu.mjs")
+import("file:///Users/achufam/Documents/SparklingFm/node_modules/defu/dist/defu.mjs")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -2270,20 +2270,20 @@ import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/defu/dist/de
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"/Users/achufam/Desktop/SparklingFM-main/node_modules/defu/dist/defu.mjs\".")
+    throw new Error("[vite dev] Error loading external \"/Users/achufam/Documents/SparklingFm/node_modules/defu/dist/defu.mjs\".")
   })
 
 
 // --------------------
 // Request: /node_modules/nuxt/dist/head/runtime/plugin.mjs
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/plugins/server.mjs ($id_e424d021)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/plugins/server.mjs ($id_bf0ff625)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt/dist/head/runtime/components.mjs ($id_b2a29d6f)
 // - /node_modules/nuxt/dist/head/runtime/composables.mjs ($id_04ea9504)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/meta.config.mjs ($id_11814b78)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/meta.config.mjs ($id_9cd777c7)
 // --------------------
 const $id_a2650341 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -2294,7 +2294,7 @@ const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt/dist
 
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/meta.config.mjs");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/meta.config.mjs");
 
 const metaMixin = {
   created() {
@@ -2542,13 +2542,13 @@ Object.defineProperty(__vite_ssr_exports__, "Body", { enumerable: true, configur
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/meta.config.mjs
+// Request: /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/meta.config.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/head/runtime/plugin.mjs ($id_a2650341)
 // Dependencies: 
 
 // --------------------
-const $id_11814b78 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_9cd777c7 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 __vite_ssr_exports__.default = {"globalMeta":{"charset":"utf-8","viewport":"width=device-width, initial-scale=1","meta":[],"link":[],"style":[],"script":[]}};
 }
 
@@ -2556,7 +2556,7 @@ __vite_ssr_exports__.default = {"globalMeta":{"charset":"utf-8","viewport":"widt
 // --------------------
 // Request: /node_modules/nuxt/dist/pages/runtime/router.mjs
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/plugins/server.mjs ($id_e424d021)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/plugins/server.mjs ($id_bf0ff625)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue-router/dist/vue-router.cjs.js ($id_f9a4a698)
@@ -2564,9 +2564,9 @@ __vite_ssr_exports__.default = {"globalMeta":{"charset":"utf-8","viewport":"widt
 // - /node_modules/ufo/dist/index.mjs ($id_614de060)
 // - /node_modules/nuxt/dist/pages/runtime/page.mjs ($id_5fc14cdc)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs ($id_508f9761)
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/router.options.mjs ($id_73a03ce0)
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/middleware.mjs ($id_e17a4fa3)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs ($id_a4467f4a)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/router.options.mjs ($id_b057c48e)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/middleware.mjs ($id_9f16a4b3)
 // --------------------
 const $id_a090977b = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -2581,11 +2581,11 @@ const __vite_ssr_import_4__ = await __vite_ssr_import__("/node_modules/nuxt/dist
 
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs");
 
-const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/router.options.mjs");
+const __vite_ssr_import_7__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/router.options.mjs");
 
-const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/middleware.mjs");
+const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/middleware.mjs");
 
 function createCurrentLocation(base, location) {
   const { pathname, search, hash } = location;
@@ -2828,7 +2828,7 @@ Object.defineProperty(__vite_ssr_exports__, "_wrapIf", { enumerable: true, confi
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs
+// Request: /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
 // Dependencies: 
@@ -2859,7 +2859,7 @@ Object.defineProperty(__vite_ssr_exports__, "_wrapIf", { enumerable: true, confi
 // - /pages/index.vue ($id_cca58e97)
 // - /pages/landing-page/[slug].vue ($id_1fcaf73d)
 // --------------------
-const $id_508f9761 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_a4467f4a = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/pages/About/index.vue?macro=true");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/pages/Contact/index.vue?macro=true");
@@ -2890,7 +2890,7 @@ __vite_ssr_exports__.default = [
   {
     name: "About",
     path: "/About",
-    file: "/Users/achufam/Desktop/SparklingFM-main/pages/About/index.vue",
+    file: "/Users/achufam/Documents/SparklingFm/pages/About/index.vue",
     children: [],
     meta: __vite_ssr_import_0__.meta,
     alias: __vite_ssr_import_0__.meta?.alias || [],
@@ -2899,7 +2899,7 @@ __vite_ssr_exports__.default = [
   {
     name: "Contact",
     path: "/Contact",
-    file: "/Users/achufam/Desktop/SparklingFM-main/pages/Contact/index.vue",
+    file: "/Users/achufam/Documents/SparklingFm/pages/Contact/index.vue",
     children: [],
     meta: __vite_ssr_import_1__.meta,
     alias: __vite_ssr_import_1__.meta?.alias || [],
@@ -2908,7 +2908,7 @@ __vite_ssr_exports__.default = [
   {
     name: "Oap",
     path: "/Oap",
-    file: "/Users/achufam/Desktop/SparklingFM-main/pages/Oap/index.vue",
+    file: "/Users/achufam/Documents/SparklingFm/pages/Oap/index.vue",
     children: [],
     meta: __vite_ssr_import_2__.meta,
     alias: __vite_ssr_import_2__.meta?.alias || [],
@@ -2917,7 +2917,7 @@ __vite_ssr_exports__.default = [
   {
     name: "Program",
     path: "/Program",
-    file: "/Users/achufam/Desktop/SparklingFM-main/pages/Program/index.vue",
+    file: "/Users/achufam/Documents/SparklingFm/pages/Program/index.vue",
     children: [],
     meta: __vite_ssr_import_3__.meta,
     alias: __vite_ssr_import_3__.meta?.alias || [],
@@ -2926,7 +2926,7 @@ __vite_ssr_exports__.default = [
   {
     name: "Shows",
     path: "/Shows",
-    file: "/Users/achufam/Desktop/SparklingFM-main/pages/Shows/index.vue",
+    file: "/Users/achufam/Documents/SparklingFm/pages/Shows/index.vue",
     children: [],
     meta: __vite_ssr_import_4__.meta,
     alias: __vite_ssr_import_4__.meta?.alias || [],
@@ -2934,12 +2934,12 @@ __vite_ssr_exports__.default = [
   },
   {
     path: "/blog",
-    file: "/Users/achufam/Desktop/SparklingFM-main/pages/blog.vue",
+    file: "/Users/achufam/Documents/SparklingFm/pages/blog.vue",
     children: [
   {
     name: "blog-post",
     path: ":post",
-    file: "/Users/achufam/Desktop/SparklingFM-main/pages/blog/[post].vue",
+    file: "/Users/achufam/Documents/SparklingFm/pages/blog/[post].vue",
     children: [],
     meta: __vite_ssr_import_6__.meta,
     alias: __vite_ssr_import_6__.meta?.alias || [],
@@ -2948,7 +2948,7 @@ __vite_ssr_exports__.default = [
   {
     name: "blog-category-category",
     path: "category/:category",
-    file: "/Users/achufam/Desktop/SparklingFM-main/pages/blog/category/[category].vue",
+    file: "/Users/achufam/Documents/SparklingFm/pages/blog/category/[category].vue",
     children: [],
     meta: __vite_ssr_import_7__.meta,
     alias: __vite_ssr_import_7__.meta?.alias || [],
@@ -2957,7 +2957,7 @@ __vite_ssr_exports__.default = [
   {
     name: "blog",
     path: "",
-    file: "/Users/achufam/Desktop/SparklingFM-main/pages/blog/index.vue",
+    file: "/Users/achufam/Documents/SparklingFm/pages/blog/index.vue",
     children: [],
     meta: __vite_ssr_import_8__.meta,
     alias: __vite_ssr_import_8__.meta?.alias || [],
@@ -2966,7 +2966,7 @@ __vite_ssr_exports__.default = [
   {
     name: "blog-search",
     path: "search",
-    file: "/Users/achufam/Desktop/SparklingFM-main/pages/blog/search.vue",
+    file: "/Users/achufam/Documents/SparklingFm/pages/blog/search.vue",
     children: [],
     meta: __vite_ssr_import_9__.meta,
     alias: __vite_ssr_import_9__.meta?.alias || [],
@@ -2975,7 +2975,7 @@ __vite_ssr_exports__.default = [
   {
     name: "blog-tag-tag",
     path: "tag/:tag",
-    file: "/Users/achufam/Desktop/SparklingFM-main/pages/blog/tag/[tag].vue",
+    file: "/Users/achufam/Documents/SparklingFm/pages/blog/tag/[tag].vue",
     children: [],
     meta: __vite_ssr_import_10__.meta,
     alias: __vite_ssr_import_10__.meta?.alias || [],
@@ -2989,7 +2989,7 @@ __vite_ssr_exports__.default = [
   {
     name: "index",
     path: "/",
-    file: "/Users/achufam/Desktop/SparklingFM-main/pages/index.vue",
+    file: "/Users/achufam/Documents/SparklingFm/pages/index.vue",
     children: [],
     meta: __vite_ssr_import_11__.meta,
     alias: __vite_ssr_import_11__.meta?.alias || [],
@@ -2998,7 +2998,7 @@ __vite_ssr_exports__.default = [
   {
     name: "landing-page-slug",
     path: "/landing-page/:slug",
-    file: "/Users/achufam/Desktop/SparklingFM-main/pages/landing-page/[slug].vue",
+    file: "/Users/achufam/Documents/SparklingFm/pages/landing-page/[slug].vue",
     children: [],
     meta: __vite_ssr_import_12__.meta,
     alias: __vite_ssr_import_12__.meta?.alias || [],
@@ -3011,7 +3011,7 @@ __vite_ssr_exports__.default = [
 // --------------------
 // Request: /pages/About/index.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs ($id_508f9761)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs ($id_a4467f4a)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -3063,7 +3063,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-ca327872"],['__file',"/Users/achufam/Desktop/SparklingFM-main/pages/About/index.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-ca327872"],['__file',"/Users/achufam/Documents/SparklingFm/pages/About/index.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -3126,7 +3126,7 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 
 // --------------------
 const $id_b215fa1c = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/vue/server-renderer/index.js")
+import("file:///Users/achufam/Documents/SparklingFm/node_modules/vue/server-renderer/index.js")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -3135,7 +3135,7 @@ import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/vue/server-r
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"/Users/achufam/Desktop/SparklingFM-main/node_modules/vue/server-renderer/index.js\".")
+    throw new Error("[vite dev] Error loading external \"/Users/achufam/Documents/SparklingFm/node_modules/vue/server-renderer/index.js\".")
   })
 
 
@@ -3227,7 +3227,7 @@ __vite_ssr_exports__.default = (sfc, props) => {
 // --------------------
 // Request: /pages/Contact/index.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs ($id_508f9761)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs ($id_a4467f4a)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -3258,7 +3258,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-427f8cda"],['__file',"/Users/achufam/Desktop/SparklingFM-main/pages/Contact/index.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-427f8cda"],['__file',"/Users/achufam/Documents/SparklingFm/pages/Contact/index.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -3280,7 +3280,7 @@ __vite_ssr_exports__.default = ".header[data-v-427f8cda]{margin-top:200px;paddin
 // --------------------
 // Request: /pages/Oap/index.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs ($id_508f9761)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs ($id_a4467f4a)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -3315,7 +3315,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-28cf30d0"],['__file',"/Users/achufam/Desktop/SparklingFM-main/pages/Oap/index.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-28cf30d0"],['__file',"/Users/achufam/Documents/SparklingFm/pages/Oap/index.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -3337,7 +3337,7 @@ __vite_ssr_exports__.default = ".header[data-v-28cf30d0]{margin-top:150px}.flexb
 // --------------------
 // Request: /pages/Program/index.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs ($id_508f9761)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs ($id_a4467f4a)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -3418,7 +3418,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-d3064b84"],['__file',"/Users/achufam/Desktop/SparklingFM-main/pages/Program/index.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-d3064b84"],['__file',"/Users/achufam/Documents/SparklingFm/pages/Program/index.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -3440,7 +3440,7 @@ __vite_ssr_exports__.default = ".header[data-v-d3064b84]{margin-top:150px}.inact
 // --------------------
 // Request: /pages/Shows/index.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs ($id_508f9761)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs ($id_a4467f4a)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -3471,7 +3471,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-9bf4e3e0"],['__file',"/Users/achufam/Desktop/SparklingFM-main/pages/Shows/index.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-9bf4e3e0"],['__file',"/Users/achufam/Documents/SparklingFm/pages/Shows/index.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -3493,7 +3493,7 @@ __vite_ssr_exports__.default = ".header[data-v-9bf4e3e0]{margin-top:150px}";
 // --------------------
 // Request: /pages/blog.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs ($id_508f9761)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs ($id_a4467f4a)
 // Dependencies: 
 // - /utils/index.js ($id_afae385f)
 // - /node_modules/vue-router/dist/vue-router.cjs.js ($id_f9a4a698)
@@ -3607,7 +3607,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_10__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_10__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/pages/blog.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_10__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/pages/blog.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -3735,7 +3735,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-5b46083a"],['__file',"/Users/achufam/Desktop/SparklingFM-main/components/BlogSections/BlogHeader.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-5b46083a"],['__file',"/Users/achufam/Documents/SparklingFm/components/BlogSections/BlogHeader.vue"]]);
 }
 
 
@@ -3899,7 +3899,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/components/Seo.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/components/Seo.vue"]]);
 }
 
 
@@ -3960,7 +3960,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/components/BlogSections/BlogContentContainer.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/components/BlogSections/BlogContentContainer.vue"]]);
 }
 
 
@@ -4033,7 +4033,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/components/BlogSections/BlogWidget.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/components/BlogSections/BlogWidget.vue"]]);
 }
 
 
@@ -4048,7 +4048,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_m
 // - /pages/blog/category/[category].vue ($id_30a09798)
 // - /pages/blog/tag/[tag].vue ($id_a028d802)
 // - /pages/blog.vue ($id_b88f8cfb)
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/imports.mjs ($id_7af1a9d5)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/imports.mjs ($id_a86add8e)
 // - /layouts/default.vue ($id_7689e89d)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -4120,7 +4120,7 @@ Object.defineProperty(__vite_ssr_exports__, "useApiError", { enumerable: true, c
 // - /utils/service.js ($id_b8d789bf)
 // - /pages/blog/search.vue?macro=true ($id_5f38e199)
 // - /pages/blog/search.vue ($id_fff6364d)
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/plugins/server.mjs ($id_e424d021)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/plugins/server.mjs ($id_bf0ff625)
 // Dependencies: 
 // - /node_modules/buttercms/lib/butter.js ($id_0ea24316)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
@@ -4155,7 +4155,7 @@ __vite_ssr_exports__.default = __vite_ssr_import_1__.defineNuxtPlugin((nuxtApp) 
 
 // --------------------
 const $id_0ea24316 = (global, module, _, exports, importMeta, ssrImport, ssrDynamicImport, ssrExportAll) =>
-import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/buttercms/lib/butter.js")
+import("file:///Users/achufam/Documents/SparklingFm/node_modules/buttercms/lib/butter.js")
   .then(r => {
     if (r.default && r.default.__esModule)
       r = r.default
@@ -4164,14 +4164,14 @@ import("file:///Users/achufam/Desktop/SparklingFM-main/node_modules/buttercms/li
   })
   .catch(e => {
     console.error(e)
-    throw new Error("[vite dev] Error loading external \"/Users/achufam/Desktop/SparklingFM-main/node_modules/buttercms/lib/butter.js\".")
+    throw new Error("[vite dev] Error loading external \"/Users/achufam/Documents/SparklingFm/node_modules/buttercms/lib/butter.js\".")
   })
 
 
 // --------------------
 // Request: /pages/blog/[post].vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs ($id_508f9761)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs ($id_a4467f4a)
 // Dependencies: 
 // - /components/Seo.vue ($id_8c341417)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
@@ -4257,7 +4257,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/pages/blog/[post].vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/pages/blog/[post].vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -4371,7 +4371,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-782244ac"],['__file',"/Users/achufam/Desktop/SparklingFM-main/components/BlogSections/SingleArticle.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-782244ac"],['__file',"/Users/achufam/Documents/SparklingFm/components/BlogSections/SingleArticle.vue"]]);
 }
 
 
@@ -4403,7 +4403,7 @@ __vite_ssr_exports__.default = ".tag[data-v-782244ac]{padding-right:10px}";
 // --------------------
 // Request: /pages/blog/category/[category].vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs ($id_508f9761)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs ($id_a4467f4a)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -4499,7 +4499,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_9__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_9__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/pages/blog/category/[category].vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_9__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/pages/blog/category/[category].vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -4658,7 +4658,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-e71449aa"],['__file',"/Users/achufam/Desktop/SparklingFM-main/components/BlogSections/BlogPostsList.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-e71449aa"],['__file',"/Users/achufam/Documents/SparklingFm/components/BlogSections/BlogPostsList.vue"]]);
 }
 
 
@@ -4695,7 +4695,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/components/ZeroData.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/components/ZeroData.vue"]]);
 }
 
 
@@ -4742,7 +4742,7 @@ Object.defineProperty(__vite_ssr_exports__, "getBlogTag", { enumerable: true, co
 // --------------------
 // Request: /pages/blog/index.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs ($id_508f9761)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs ($id_a4467f4a)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
@@ -4817,7 +4817,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/pages/blog/index.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/pages/blog/index.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -4826,7 +4826,7 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // --------------------
 // Request: /pages/blog/search.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs ($id_508f9761)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs ($id_a4467f4a)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -4905,7 +4905,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/pages/blog/search.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/pages/blog/search.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -4914,7 +4914,7 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // --------------------
 // Request: /pages/blog/tag/[tag].vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs ($id_508f9761)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs ($id_a4467f4a)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -5016,7 +5016,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_9__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_9__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/pages/blog/tag/[tag].vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_9__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/pages/blog/tag/[tag].vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -5025,7 +5025,7 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // --------------------
 // Request: /pages/index.vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs ($id_508f9761)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs ($id_a4467f4a)
 // Dependencies: 
 // - /views/HomeView.vue ($id_98fc61c2)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -5066,7 +5066,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/pages/index.vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/pages/index.vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -5236,7 +5236,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_17__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_17__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-82e3b55a"],['__file',"/Users/achufam/Desktop/SparklingFM-main/views/HomeView.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_17__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-82e3b55a"],['__file',"/Users/achufam/Documents/SparklingFm/views/HomeView.vue"]]);
 }
 
 
@@ -5248,16 +5248,6 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_17__.default(_sfc_
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
-// - /assets/images/hero-img.png ($id_9173b2b8)
-// - /assets/images/slide.jpeg ($id_4decb3f8)
-// - /assets/images/slide2.jpeg ($id_86c8a96a)
-// - /assets/images/slide3.jpeg ($id_e8771658)
-// - /assets/images/slide4.jpeg ($id_27c837ea)
-// - /assets/images/slide5.jpeg ($id_ec0f6dbf)
-// - /assets/images/slide6.jpeg ($id_7ae1ec26)
-// - /assets/images/slide7.jpeg ($id_86a41cb6)
-// - /assets/images/slide8.jpeg ($id_89499150)
-// - /assets/images/slide9.jpeg ($id_c39e649b)
 // - /components/HomepageSections/HeroSection.vue?vue&type=style&index=0&scoped=true&lang.css ($id_9fe3af40)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
@@ -5304,27 +5294,6 @@ const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/vue/dist/
 
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/node_modules/vue/server-renderer/index.js");
 
-const __vite_ssr_import_4__ = await __vite_ssr_import__("/assets/images/hero-img.png");
-
-const __vite_ssr_import_5__ = await __vite_ssr_import__("/assets/images/slide.jpeg");
-
-const __vite_ssr_import_6__ = await __vite_ssr_import__("/assets/images/slide2.jpeg");
-
-const __vite_ssr_import_7__ = await __vite_ssr_import__("/assets/images/slide3.jpeg");
-
-const __vite_ssr_import_8__ = await __vite_ssr_import__("/assets/images/slide4.jpeg");
-
-const __vite_ssr_import_9__ = await __vite_ssr_import__("/assets/images/slide5.jpeg");
-
-const __vite_ssr_import_10__ = await __vite_ssr_import__("/assets/images/slide6.jpeg");
-
-const __vite_ssr_import_11__ = await __vite_ssr_import__("/assets/images/slide7.jpeg");
-
-const __vite_ssr_import_12__ = await __vite_ssr_import__("/assets/images/slide8.jpeg");
-
-const __vite_ssr_import_13__ = await __vite_ssr_import__("/assets/images/slide9.jpeg");
-
-
 
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
   const _component_nuxt_link = __vite_ssr_import_0__.default
@@ -5351,183 +5320,43 @@ function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $op
   }, _parent))
   _push(`</div></div><div class="hero-img" data-v-786284f3><div class="w3-content w3-section" style="${
     __vite_ssr_import_3__.ssrRenderStyle({"max-width":"500px"})
-  }" data-v-786284f3><div class="mySlides slideshow-container" data-v-786284f3><img${
-    __vite_ssr_import_3__.ssrRenderAttr("src", __vite_ssr_import_4__.default)
-  } style="${
+  }" data-v-786284f3><div class="mySlides slideshow-container" data-v-786284f3><img src="https://i.ibb.co/7YSxyHk/Group-1.jpg" style="${
     __vite_ssr_import_3__.ssrRenderStyle({"width":"100%"})
-  }" data-v-786284f3><h1 class="numbertext" data-v-786284f3>1 / 10</h1></div><div class="mySlides slideshow-container" data-v-786284f3><img${
-    __vite_ssr_import_3__.ssrRenderAttr("src", __vite_ssr_import_5__.default)
-  } style="${
+  }" data-v-786284f3><h1 class="numbertext" data-v-786284f3>1 / 10</h1></div><div class="mySlides slideshow-container" data-v-786284f3><img src="https://i.ibb.co/pb2yV0w/Whats-App-Image-2022-09-14-at-12-07-26-PM.jpg" style="${
     __vite_ssr_import_3__.ssrRenderStyle({"width":"100%"})
-  }" data-v-786284f3><h1 class="numbertext" data-v-786284f3>2 / 10</h1></div><div class="mySlides slideshow-container" data-v-786284f3><img${
-    __vite_ssr_import_3__.ssrRenderAttr("src", __vite_ssr_import_6__.default)
-  } style="${
+  }" data-v-786284f3><h1 class="numbertext" data-v-786284f3>2 / 10</h1></div><div class="mySlides slideshow-container" data-v-786284f3><img src="https://i.ibb.co/8DzWQ7x/Whats-App-Image-2022-09-14-at-12-06-39-PM.jpg" style="${
     __vite_ssr_import_3__.ssrRenderStyle({"width":"100%"})
-  }" data-v-786284f3><h1 class="numbertext" data-v-786284f3>3 / 10</h1></div><div class="mySlides slideshow-container" data-v-786284f3><img${
-    __vite_ssr_import_3__.ssrRenderAttr("src", __vite_ssr_import_7__.default)
-  } style="${
+  }" data-v-786284f3><h1 class="numbertext" data-v-786284f3>3 / 10</h1></div><div class="mySlides slideshow-container" data-v-786284f3><img src="https://i.ibb.co/YcFM8Mz/Whats-App-Image-2022-09-14-at-12-07-27-PM-2.jpg" style="${
     __vite_ssr_import_3__.ssrRenderStyle({"width":"100%"})
-  }" data-v-786284f3><h1 class="numbertext" data-v-786284f3>4 / 10</h1></div><div class="mySlides slideshow-container" data-v-786284f3><img${
-    __vite_ssr_import_3__.ssrRenderAttr("src", __vite_ssr_import_8__.default)
-  } style="${
+  }" data-v-786284f3><h1 class="numbertext" data-v-786284f3>4 / 10</h1></div><div class="mySlides slideshow-container" data-v-786284f3><img src="https://i.ibb.co/xHkj6LM/slide5.jpg" style="${
     __vite_ssr_import_3__.ssrRenderStyle({"width":"100%"})
-  }" data-v-786284f3><h1 class="numbertext" data-v-786284f3>5 / 10</h1></div><div class="mySlides slideshow-container" data-v-786284f3><img${
-    __vite_ssr_import_3__.ssrRenderAttr("src", __vite_ssr_import_9__.default)
-  } style="${
+  }" data-v-786284f3><h1 class="numbertext" data-v-786284f3>5 / 10</h1></div><div class="mySlides slideshow-container" data-v-786284f3><img src="https://i.ibb.co/sWsJbMH/slide3.jpg" style="${
     __vite_ssr_import_3__.ssrRenderStyle({"width":"100%"})
-  }" data-v-786284f3><h1 class="numbertext" data-v-786284f3>6 / 10</h1></div><div class="mySlides slideshow-container" data-v-786284f3><img${
-    __vite_ssr_import_3__.ssrRenderAttr("src", __vite_ssr_import_10__.default)
-  } style="${
+  }" data-v-786284f3><h1 class="numbertext" data-v-786284f3>6 / 10</h1></div><div class="mySlides slideshow-container" data-v-786284f3><img src="https://i.ibb.co/BV3R1Vx/slide6.jpg" style="${
     __vite_ssr_import_3__.ssrRenderStyle({"width":"100%"})
-  }" data-v-786284f3><h1 class="numbertext" data-v-786284f3>7 / 10</h1></div><div class="mySlides slideshow-container" data-v-786284f3><img${
-    __vite_ssr_import_3__.ssrRenderAttr("src", __vite_ssr_import_11__.default)
-  } style="${
+  }" data-v-786284f3><h1 class="numbertext" data-v-786284f3>7 / 10</h1></div><div class="mySlides slideshow-container" data-v-786284f3><img src="https://i.ibb.co/H21tZh1/slide4.jpg" style="${
     __vite_ssr_import_3__.ssrRenderStyle({"width":"100%"})
-  }" data-v-786284f3><h1 class="numbertext" data-v-786284f3>8 / 10</h1></div><div class="mySlides slideshow-container" data-v-786284f3><img${
-    __vite_ssr_import_3__.ssrRenderAttr("src", __vite_ssr_import_12__.default)
-  } style="${
+  }" data-v-786284f3><h1 class="numbertext" data-v-786284f3>8 / 10</h1></div><div class="mySlides slideshow-container" data-v-786284f3><img src="https://i.ibb.co/zQxGmKc/slide8.jpg" style="${
     __vite_ssr_import_3__.ssrRenderStyle({"width":"100%"})
-  }" data-v-786284f3><h1 class="numbertext" data-v-786284f3>9 / 10</h1></div><div class="mySlides slideshow-container" data-v-786284f3><img${
-    __vite_ssr_import_3__.ssrRenderAttr("src", __vite_ssr_import_13__.default)
-  } style="${
+  }" data-v-786284f3><h1 class="numbertext" data-v-786284f3>9 / 10</h1></div><div class="mySlides slideshow-container" data-v-786284f3><img src="https://i.ibb.co/x8x0TS7/slide9.jpg" style="${
     __vite_ssr_import_3__.ssrRenderStyle({"width":"100%"})
   }" data-v-786284f3><h1 class="numbertext" data-v-786284f3>10 / 10</h1></div></div></div></div><div class="iframe" id="C4" data-v-786284f3><div data-v-786284f3><iframe loading="lazy" src="https://mixlr.com/users/2614208/embed" width="100%" height="180px" frameborder="no" marginwidth="0" marginheight="0" scrolling="no" data-v-786284f3></iframe></div></div></div>`)
 }
 
-const __vite_ssr_import_14__ = await __vite_ssr_import__("/components/HomepageSections/HeroSection.vue?vue&type=style&index=0&scoped=true&lang.css");
+const __vite_ssr_import_4__ = await __vite_ssr_import__("/components/HomepageSections/HeroSection.vue?vue&type=style&index=0&scoped=true&lang.css");
 
 
-const __vite_ssr_import_15__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
+const __vite_ssr_import_5__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 const _sfc_setup = _sfc_main.setup
 _sfc_main.setup = (props, ctx) => {
-  const ssrContext = __vite_ssr_import_15__.useSSRContext()
+  const ssrContext = __vite_ssr_import_5__.useSSRContext()
   ;(ssrContext.modules || (ssrContext.modules = new Set())).add("components/HomepageSections/HeroSection.vue")
   return _sfc_setup ? _sfc_setup(props, ctx) : undefined
 }
-const __vite_ssr_import_16__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
+const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_16__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-786284f3"],['__file',"/Users/achufam/Desktop/SparklingFM-main/components/HomepageSections/HeroSection.vue"]]);
-}
-
-
-// --------------------
-// Request: /assets/images/hero-img.png
-// Parents: 
-// - /components/HomepageSections/HeroSection.vue ($id_78f0332b)
-// Dependencies: 
-
-// --------------------
-const $id_9173b2b8 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/_nuxt/assets/images/hero-img.png";
-}
-
-
-// --------------------
-// Request: /assets/images/slide.jpeg
-// Parents: 
-// - /components/HomepageSections/HeroSection.vue ($id_78f0332b)
-// Dependencies: 
-
-// --------------------
-const $id_4decb3f8 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/_nuxt/assets/images/slide.jpeg";
-}
-
-
-// --------------------
-// Request: /assets/images/slide2.jpeg
-// Parents: 
-// - /components/HomepageSections/HeroSection.vue ($id_78f0332b)
-// Dependencies: 
-
-// --------------------
-const $id_86c8a96a = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/_nuxt/assets/images/slide2.jpeg";
-}
-
-
-// --------------------
-// Request: /assets/images/slide3.jpeg
-// Parents: 
-// - /components/HomepageSections/HeroSection.vue ($id_78f0332b)
-// Dependencies: 
-
-// --------------------
-const $id_e8771658 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/_nuxt/assets/images/slide3.jpeg";
-}
-
-
-// --------------------
-// Request: /assets/images/slide4.jpeg
-// Parents: 
-// - /components/HomepageSections/HeroSection.vue ($id_78f0332b)
-// Dependencies: 
-
-// --------------------
-const $id_27c837ea = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/_nuxt/assets/images/slide4.jpeg";
-}
-
-
-// --------------------
-// Request: /assets/images/slide5.jpeg
-// Parents: 
-// - /components/HomepageSections/HeroSection.vue ($id_78f0332b)
-// Dependencies: 
-
-// --------------------
-const $id_ec0f6dbf = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/_nuxt/assets/images/slide5.jpeg";
-}
-
-
-// --------------------
-// Request: /assets/images/slide6.jpeg
-// Parents: 
-// - /components/HomepageSections/HeroSection.vue ($id_78f0332b)
-// Dependencies: 
-
-// --------------------
-const $id_7ae1ec26 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/_nuxt/assets/images/slide6.jpeg";
-}
-
-
-// --------------------
-// Request: /assets/images/slide7.jpeg
-// Parents: 
-// - /components/HomepageSections/HeroSection.vue ($id_78f0332b)
-// Dependencies: 
-
-// --------------------
-const $id_86a41cb6 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/_nuxt/assets/images/slide7.jpeg";
-}
-
-
-// --------------------
-// Request: /assets/images/slide8.jpeg
-// Parents: 
-// - /components/HomepageSections/HeroSection.vue ($id_78f0332b)
-// Dependencies: 
-
-// --------------------
-const $id_89499150 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/_nuxt/assets/images/slide8.jpeg";
-}
-
-
-// --------------------
-// Request: /assets/images/slide9.jpeg
-// Parents: 
-// - /components/HomepageSections/HeroSection.vue ($id_78f0332b)
-// Dependencies: 
-
-// --------------------
-const $id_c39e649b = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = "/_nuxt/assets/images/slide9.jpeg";
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-786284f3"],['__file',"/Users/achufam/Documents/SparklingFm/components/HomepageSections/HeroSection.vue"]]);
 }
 
 
@@ -5539,7 +5368,7 @@ __vite_ssr_exports__.default = "/_nuxt/assets/images/slide9.jpeg";
 
 // --------------------
 const $id_9fe3af40 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-__vite_ssr_exports__.default = ".iframe[data-v-786284f3]{margin-left:5rem;margin-right:5rem;margin-top:6rem}.mySlides[data-v-786284f3]{-webkit-animation-duration:3s;animation-duration:3s;-webkit-animation-name:fade-786284f3;animation-name:fade-786284f3}@-webkit-keyframes fade-786284f3{0%{opacity:.4}to{opacity:1}}.hero[data-v-786284f3]{display:flex;height:auto;justify-content:space-around;padding-left:5rem;padding-right:4rem;padding-top:10rem}.hero-text[data-v-786284f3]{margin-bottom:2rem}.hero-text h1[data-v-786284f3]{font-size:40px}.mobile-text[data-v-786284f3]{display:none}.hero-img img[data-v-786284f3]{height:500px}.hero-article[data-v-786284f3]{display:flex;flex-direction:column;margin-top:2rem}.hero-links[data-v-786284f3]{display:flex}.hero-links a[data-v-786284f3]{background-color:#000;border-radius:2px;color:#fff;padding:.7rem 1rem}.hero-para[data-v-786284f3]{margin-bottom:3rem}.second-link[data-v-786284f3]{margin-left:15px}.colored-text[data-v-786284f3]{color:#e58946}.listen[data-v-786284f3]:hover{background-color:#717171}@media only screen and (max-width:900px){.hero[data-v-786284f3]{flex-direction:column;justify-content:space-evenly;margin-top:-5rem;padding-left:1rem;padding-right:1rem}.hero-img[data-v-786284f3]{margin-top:3rem}.hero-img img[data-v-786284f3]{width:100%}.lg-text[data-v-786284f3]{display:none}.hero-text h1[data-v-786284f3]{font-size:29px}.mobile-text[data-v-786284f3]{display:block}.hero-links[data-v-786284f3]{display:flex}.hero-links a[data-v-786284f3]{padding:.2rem .3rem}}#listen[data-v-786284f3]:hover{background-color:#717171}.mySlides[data-v-786284f3]{display:none}img[data-v-786284f3]{vertical-align:middle}.slideshow-container[data-v-786284f3]{margin:auto;max-width:1000px;position:relative}.text[data-v-786284f3]{bottom:8px;font-size:15px;text-align:center;width:100%}.numbertext[data-v-786284f3],.text[data-v-786284f3]{color:#f2f2f2;padding:8px 12px;position:absolute}.numbertext[data-v-786284f3]{font-size:12px;top:0}.dot[data-v-786284f3]{background-color:#bbb;border-radius:50%;display:inline-block;height:15px;margin:0 2px;transition:background-color .6s ease;width:15px}.active[data-v-786284f3]{background-color:#717171}.next[data-v-786284f3],.prev[data-v-786284f3]{border-radius:0 3px 3px 0;color:#fff;cursor:pointer;font-size:18px;font-weight:700;margin-top:-22px;padding:16px;position:absolute;top:50%;transition:.6s ease;-webkit-user-select:none;-moz-user-select:none;user-select:none;width:auto}.mySlides img[data-v-786284f3]{height:450px;width:700px}.next[data-v-786284f3]{border-radius:3px 0 0 3px;right:0}.next[data-v-786284f3]:hover,.prev[data-v-786284f3]:hover{background-color:rgba(0,0,0,.8)}.fade[data-v-786284f3]{-webkit-animation-duration:7s;animation-duration:7s;-webkit-animation-name:fade-786284f3;animation-name:fade-786284f3}@keyframes fade-786284f3{0%{opacity:.1}to{opacity:1}}@media only screen and (max-width:600px){.mySlides img[data-v-786284f3]{width:100%}.dot[data-v-786284f3]{display:none}.iframe[data-v-786284f3]{margin-left:1rem;margin-right:1rem;margin-top:4rem}}@media only screen and (max-width:300px){.text[data-v-786284f3]{font-size:11px}}";
+__vite_ssr_exports__.default = ".iframe[data-v-786284f3]{margin-left:5rem;margin-right:5rem;margin-top:6rem}.mySlides[data-v-786284f3]{-webkit-animation-duration:3s;animation-duration:3s;-webkit-animation-name:fade-786284f3;animation-name:fade-786284f3}@-webkit-keyframes fade-786284f3{0%{opacity:.4}to{opacity:1}}.hero[data-v-786284f3]{display:flex;height:auto;justify-content:space-around;padding-left:5rem;padding-right:4rem;padding-top:10rem}.hero-text[data-v-786284f3]{margin-bottom:2rem}.hero-text h1[data-v-786284f3]{font-size:40px}.mobile-text[data-v-786284f3]{display:none}.hero-img img[data-v-786284f3]{height:500px}.hero-article[data-v-786284f3]{display:flex;flex-direction:column;margin-top:2rem}.hero-links[data-v-786284f3]{display:flex}.hero-links a[data-v-786284f3]{background-color:#000;border-radius:2px;color:#fff;padding:.7rem 1rem}.hero-para[data-v-786284f3]{margin-bottom:3rem}.second-link[data-v-786284f3]{margin-left:15px}.colored-text[data-v-786284f3]{color:#e58946}.listen[data-v-786284f3]:hover{background-color:#717171}@media only screen and (max-width:900px){.hero[data-v-786284f3]{flex-direction:column;justify-content:space-evenly;margin-top:-5rem;padding-left:1rem;padding-right:1rem}.hero-img[data-v-786284f3]{display:none;margin-top:3rem}.hero-img img[data-v-786284f3]{width:100%}.lg-text[data-v-786284f3]{display:none}.hero-text h1[data-v-786284f3]{font-size:29px}.mobile-text[data-v-786284f3]{display:block}.hero-links[data-v-786284f3]{display:flex}.hero-links a[data-v-786284f3]{padding:.2rem .3rem}}#listen[data-v-786284f3]:hover{background-color:#717171}.mySlides[data-v-786284f3]{display:none}img[data-v-786284f3]{vertical-align:middle}.slideshow-container[data-v-786284f3]{margin:auto;max-width:1000px;position:relative}.text[data-v-786284f3]{bottom:8px;font-size:15px;text-align:center;width:100%}.numbertext[data-v-786284f3],.text[data-v-786284f3]{color:#f2f2f2;padding:8px 12px;position:absolute}.numbertext[data-v-786284f3]{font-size:12px;top:0}.dot[data-v-786284f3]{background-color:#bbb;border-radius:50%;display:inline-block;height:15px;margin:0 2px;transition:background-color .6s ease;width:15px}.active[data-v-786284f3]{background-color:#717171}.next[data-v-786284f3],.prev[data-v-786284f3]{border-radius:0 3px 3px 0;color:#fff;cursor:pointer;font-size:18px;font-weight:700;margin-top:-22px;padding:16px;position:absolute;top:50%;transition:.6s ease;-webkit-user-select:none;-moz-user-select:none;user-select:none;width:auto}.mySlides img[data-v-786284f3]{height:450px;width:700px}.next[data-v-786284f3]{border-radius:3px 0 0 3px;right:0}.next[data-v-786284f3]:hover,.prev[data-v-786284f3]:hover{background-color:rgba(0,0,0,.8)}.fade[data-v-786284f3]{-webkit-animation-duration:7s;animation-duration:7s;-webkit-animation-name:fade-786284f3;animation-name:fade-786284f3}@keyframes fade-786284f3{0%{opacity:.1}to{opacity:1}}@media only screen and (max-width:600px){.mySlides img[data-v-786284f3]{width:100%}.dot[data-v-786284f3]{display:none}.iframe[data-v-786284f3]{margin-left:1rem;margin-right:1rem;margin-top:4rem}}@media only screen and (max-width:300px){.text[data-v-786284f3]{font-size:11px}}";
 }
 
 
@@ -5566,7 +5395,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"/Users/achufam/Desktop/SparklingFM-main/components/HomepageSections/TwoColumnWithImageSection.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"/Users/achufam/Documents/SparklingFm/components/HomepageSections/TwoColumnWithImageSection.vue"]]);
 }
 
 
@@ -5593,7 +5422,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"/Users/achufam/Desktop/SparklingFM-main/components/HomepageSections/FeaturesSection.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"/Users/achufam/Documents/SparklingFm/components/HomepageSections/FeaturesSection.vue"]]);
 }
 
 
@@ -5674,7 +5503,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/components/HomepageSections/BlogSection.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/components/HomepageSections/BlogSection.vue"]]);
 }
 
 
@@ -5771,7 +5600,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/components/BlogPostTile.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/components/BlogPostTile.vue"]]);
 }
 
 
@@ -5798,7 +5627,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"/Users/achufam/Desktop/SparklingFM-main/components/HomepageSections/TestimonialsSection.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_1__.default(_sfc_main, [['__file',"/Users/achufam/Documents/SparklingFm/components/HomepageSections/TestimonialsSection.vue"]]);
 }
 
 
@@ -5817,7 +5646,7 @@ __vite_ssr_exports__.default = ".category[data-v-82e3b55a]{margin-top:4rem;paddi
 // --------------------
 // Request: /pages/landing-page/[slug].vue?macro=true
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs ($id_508f9761)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs ($id_a4467f4a)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
 // - /views/HomeView.vue ($id_98fc61c2)
@@ -5866,7 +5695,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/pages/landing-page/[slug].vue"]])
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/pages/landing-page/[slug].vue"]])
 const meta = undefined
 Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configurable: true, get(){ return meta }});;
 }
@@ -5875,7 +5704,7 @@ Object.defineProperty(__vite_ssr_exports__, "meta", { enumerable: true, configur
 // --------------------
 // Request: /pages/About/index.vue
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs ($id_508f9761)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs ($id_a4467f4a)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -5927,14 +5756,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-ca327872"],['__file',"/Users/achufam/Desktop/SparklingFM-main/pages/About/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-ca327872"],['__file',"/Users/achufam/Documents/SparklingFm/pages/About/index.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/Contact/index.vue
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs ($id_508f9761)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs ($id_a4467f4a)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -5965,14 +5794,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-427f8cda"],['__file',"/Users/achufam/Desktop/SparklingFM-main/pages/Contact/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-427f8cda"],['__file',"/Users/achufam/Documents/SparklingFm/pages/Contact/index.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/Oap/index.vue
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs ($id_508f9761)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs ($id_a4467f4a)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -6007,14 +5836,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-28cf30d0"],['__file',"/Users/achufam/Desktop/SparklingFM-main/pages/Oap/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-28cf30d0"],['__file',"/Users/achufam/Documents/SparklingFm/pages/Oap/index.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/Program/index.vue
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs ($id_508f9761)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs ($id_a4467f4a)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -6095,14 +5924,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-d3064b84"],['__file',"/Users/achufam/Desktop/SparklingFM-main/pages/Program/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-d3064b84"],['__file',"/Users/achufam/Documents/SparklingFm/pages/Program/index.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/Shows/index.vue
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs ($id_508f9761)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs ($id_a4467f4a)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -6133,14 +5962,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-9bf4e3e0"],['__file',"/Users/achufam/Desktop/SparklingFM-main/pages/Shows/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-9bf4e3e0"],['__file',"/Users/achufam/Documents/SparklingFm/pages/Shows/index.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/blog/[post].vue
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs ($id_508f9761)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs ($id_a4467f4a)
 // Dependencies: 
 // - /components/Seo.vue ($id_8c341417)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
@@ -6226,14 +6055,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/pages/blog/[post].vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/pages/blog/[post].vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/blog/category/[category].vue
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs ($id_508f9761)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs ($id_a4467f4a)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -6329,14 +6158,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_9__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_9__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/pages/blog/category/[category].vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_9__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/pages/blog/category/[category].vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/blog/index.vue
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs ($id_508f9761)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs ($id_a4467f4a)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
@@ -6411,14 +6240,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/pages/blog/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/pages/blog/index.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/blog/search.vue
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs ($id_508f9761)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs ($id_a4467f4a)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -6497,14 +6326,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_8__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/pages/blog/search.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_8__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/pages/blog/search.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/blog/tag/[tag].vue
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs ($id_508f9761)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs ($id_a4467f4a)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -6606,14 +6435,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_9__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_9__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/pages/blog/tag/[tag].vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_9__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/pages/blog/tag/[tag].vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/blog.vue
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs ($id_508f9761)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs ($id_a4467f4a)
 // Dependencies: 
 // - /utils/index.js ($id_afae385f)
 // - /node_modules/vue-router/dist/vue-router.cjs.js ($id_f9a4a698)
@@ -6727,14 +6556,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_10__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_10__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/pages/blog.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_10__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/pages/blog.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/index.vue
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs ($id_508f9761)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs ($id_a4467f4a)
 // Dependencies: 
 // - /views/HomeView.vue ($id_98fc61c2)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
@@ -6775,14 +6604,14 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/pages/index.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/pages/index.vue"]]);
 }
 
 
 // --------------------
 // Request: /pages/landing-page/[slug].vue
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs ($id_508f9761)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs ($id_a4467f4a)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
 // - /views/HomeView.vue ($id_98fc61c2)
@@ -6831,18 +6660,18 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/pages/landing-page/[slug].vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/pages/landing-page/[slug].vue"]]);
 }
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/router.options.mjs
+// Request: /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/router.options.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
 // Dependencies: 
 
 // --------------------
-const $id_73a03ce0 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_b057c48e = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const configRouterOptions = {}
 __vite_ssr_exports__.default = {
 ...configRouterOptions,
@@ -6851,13 +6680,13 @@ __vite_ssr_exports__.default = {
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/middleware.mjs
+// Request: /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/middleware.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/pages/runtime/router.mjs ($id_a090977b)
 // Dependencies: 
 // - /middleware/forceTrailingSlashes.global.js ($id_efa78af8)
 // --------------------
-const $id_e17a4fa3 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_9f16a4b3 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/middleware/forceTrailingSlashes.global.js");
 
 const globalMiddleware = [
@@ -6872,7 +6701,7 @@ Object.defineProperty(__vite_ssr_exports__, "namedMiddleware", { enumerable: tru
 // --------------------
 // Request: /middleware/forceTrailingSlashes.global.js
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/middleware.mjs ($id_e17a4fa3)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/middleware.mjs ($id_9f16a4b3)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
 // --------------------
@@ -6902,7 +6731,7 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineNuxtRouteMiddleware((
 // --------------------
 // Request: /plugins/Scroll.ts
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/plugins/server.mjs ($id_e424d021)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/plugins/server.mjs ($id_bf0ff625)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
 // --------------------
@@ -6919,13 +6748,13 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineNuxtPlugin((nuxtApp) 
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/root-component.mjs
+// Request: /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/root-component.mjs
 // Parents: 
-// - /Users/achufam/Desktop/SparklingFM-main/node_modules/nuxt/dist/app/entry ($id_e2d4f336)
+// - /Users/achufam/Documents/SparklingFm/node_modules/nuxt/dist/app/entry ($id_9f7b5aaa)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
 // --------------------
-const $id_6c2be3a5 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_96ece93f = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-root.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -6935,11 +6764,11 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt/dist/app/components/nuxt-root.vue
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/root-component.mjs ($id_6c2be3a5)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/root-component.mjs ($id_96ece93f)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/error-component.mjs ($id_d17c5869)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/error-component.mjs ($id_9673c64c)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
@@ -6949,7 +6778,7 @@ const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
 // @ts-ignore
-const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/error-component.mjs");
+const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/error-component.mjs");
 
 
 
@@ -7013,18 +6842,18 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/node_modules/nuxt/dist/app/components/nuxt-root.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/node_modules/nuxt/dist/app/components/nuxt-root.vue"]]);
 }
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/error-component.mjs
+// Request: /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/error-component.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/app/components/nuxt-root.vue ($id_e9bfada3)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
 // --------------------
-const $id_d17c5869 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_9673c64c = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-error-page.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -7034,7 +6863,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt/dist/app/components/nuxt-error-page.vue
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/error-component.mjs ($id_d17c5869)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/error-component.mjs ($id_9673c64c)
 // Dependencies: 
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
@@ -7119,7 +6948,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/node_modules/nuxt/dist/app/components/nuxt-error-page.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/node_modules/nuxt/dist/app/components/nuxt-error-page.vue"]]);
 }
 
 
@@ -7129,7 +6958,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/nuxt-link.mjs ($id_ffac87b5)
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/imports.mjs ($id_7af1a9d5)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/imports.mjs ($id_a86add8e)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue?vue&type=style&index=0&scoped=true&lang.css ($id_e68b6b38)
@@ -7138,7 +6967,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 const $id_b90d4d0f = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/components/nuxt-link.mjs");
 
-const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/imports.mjs");
+const __vite_ssr_import_1__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/imports.mjs");
 
 
 const _sfc_main = {
@@ -7237,12 +7066,12 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-573335c0"],['__file',"/Users/achufam/Desktop/SparklingFM-main/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-573335c0"],['__file',"/Users/achufam/Documents/SparklingFm/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue"]]);
 }
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/imports.mjs
+// Request: /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/imports.mjs
 // Parents: 
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-404.vue ($id_b90d4d0f)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue ($id_14c8b574)
@@ -7255,7 +7084,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_m
 // - /composables/hooks.ts ($id_1b528d9a)
 // - /node_modules/nuxt/dist/pages/runtime/composables.mjs ($id_ff6ed455)
 // --------------------
-const $id_7af1a9d5 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_a86add8e = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/head/runtime/index.mjs");
 
 const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/compat/vue-demi.mjs");
@@ -7374,7 +7203,7 @@ Object.defineProperty(__vite_ssr_exports__, "definePageMeta", { enumerable: true
 // --------------------
 // Request: /node_modules/nuxt/dist/app/compat/vue-demi.mjs
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/imports.mjs ($id_7af1a9d5)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/imports.mjs ($id_a86add8e)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/compat/capi.mjs ($id_0c5717a4)
 // --------------------
@@ -7429,7 +7258,7 @@ Object.defineProperty(__vite_ssr_exports__, "del", { enumerable: true, configura
 // --------------------
 // Request: /node_modules/nuxt/dist/pages/runtime/composables.mjs
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/imports.mjs ($id_7af1a9d5)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/imports.mjs ($id_a86add8e)
 // Dependencies: 
 
 // --------------------
@@ -7462,14 +7291,14 @@ __vite_ssr_exports__.default = ".bg-white[data-v-573335c0]{--tw-bg-opacity:1;bac
 // Parents: 
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
 // Dependencies: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/imports.mjs ($id_7af1a9d5)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/imports.mjs ($id_a86add8e)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=true&lang.css ($id_a2b3b709)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
 const $id_14c8b574 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/imports.mjs");
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/imports.mjs");
 
 
 const _sfc_main = {
@@ -7546,7 +7375,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-0914425d"],['__file',"/Users/achufam/Desktop/SparklingFM-main/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-0914425d"],['__file',"/Users/achufam/Documents/SparklingFm/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue"]]);
 }
 
 
@@ -7567,14 +7396,14 @@ __vite_ssr_exports__.default = ".bg-white[data-v-0914425d]{--tw-bg-opacity:1;bac
 // Parents: 
 // - /node_modules/nuxt/dist/app/components/nuxt-error-page.vue ($id_8cc6d73f)
 // Dependencies: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/imports.mjs ($id_7af1a9d5)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/imports.mjs ($id_a86add8e)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/vue/server-renderer/index.js ($id_b215fa1c)
 // - /node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=true&lang.css ($id_2691164c)
 // - /@id/plugin-vue:export-helper ($id_bbb863c1)
 // --------------------
 const $id_bc2d74a1 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
-const __vite_ssr_import_0__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/imports.mjs");
+const __vite_ssr_import_0__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/imports.mjs");
 
 
 const _sfc_main = {
@@ -7657,7 +7486,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_5__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-1da4697d"],['__file',"/Users/achufam/Desktop/SparklingFM-main/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_5__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-1da4697d"],['__file',"/Users/achufam/Documents/SparklingFm/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue"]]);
 }
 
 
@@ -7674,13 +7503,13 @@ __vite_ssr_exports__.default = ".bg-white[data-v-1da4697d]{--tw-bg-opacity:1;bac
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/app-component.mjs
+// Request: /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/app-component.mjs
 // Parents: 
-// - /Users/achufam/Desktop/SparklingFM-main/node_modules/nuxt/dist/app/entry ($id_e2d4f336)
+// - /Users/achufam/Documents/SparklingFm/node_modules/nuxt/dist/app/entry ($id_9f7b5aaa)
 // Dependencies: 
 // - /node_modules/nuxt/dist/pages/runtime/app.vue ($id_6c61010f)
 // --------------------
-const $id_b208ec03 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_6cc2017c = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/nuxt/dist/pages/runtime/app.vue");
 
 Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, configurable: true, get(){ return __vite_ssr_import_0__.default }});;
@@ -7690,7 +7519,7 @@ Object.defineProperty(__vite_ssr_exports__, "default", { enumerable: true, confi
 // --------------------
 // Request: /node_modules/nuxt/dist/pages/runtime/app.vue
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/app-component.mjs ($id_b208ec03)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/app-component.mjs ($id_6cc2017c)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -7735,7 +7564,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/node_modules/nuxt/dist/pages/runtime/app.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/node_modules/nuxt/dist/pages/runtime/app.vue"]]);
 }
 
 
@@ -7747,7 +7576,7 @@ __vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_m
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /node_modules/nuxt/dist/app/components/utils.mjs ($id_69c52686)
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/layouts.mjs ($id_bd071dc7)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/layouts.mjs ($id_7a713443)
 // --------------------
 const $id_39003883 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
@@ -7756,7 +7585,7 @@ const __vite_ssr_import_1__ = await __vite_ssr_import__("/node_modules/nuxt/dist
 
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/node_modules/nuxt/dist/app/index.mjs");
 
-const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/layouts.mjs");
+const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/layouts.mjs");
 
 const defaultLayoutTransition = { name: "layout", mode: "out-in" };
 __vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
@@ -7783,14 +7612,14 @@ __vite_ssr_exports__.default = __vite_ssr_import_0__.defineComponent({
 
 
 // --------------------
-// Request: /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/layouts.mjs
+// Request: /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/layouts.mjs
 // Parents: 
 // - /node_modules/nuxt/dist/app/components/layout.mjs ($id_39003883)
 // Dependencies: 
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
 // - /layouts/default.vue ($id_7689e89d)
 // --------------------
-const $id_bd071dc7 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
+const $id_7a713443 = async function (global, module, exports, __vite_ssr_exports__, __vite_ssr_import_meta__, __vite_ssr_import__, __vite_ssr_dynamic_import__, __vite_ssr_exportAll__) {
 const __vite_ssr_import_0__ = await __vite_ssr_import__("/node_modules/vue/dist/vue.cjs.js");
 
 __vite_ssr_exports__.default = {
@@ -7802,7 +7631,7 @@ __vite_ssr_exports__.default = {
 // --------------------
 // Request: /layouts/default.vue
 // Parents: 
-// - /@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/layouts.mjs ($id_bd071dc7)
+// - /@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/layouts.mjs ($id_7a713443)
 // Dependencies: 
 // - /node_modules/nuxt/dist/app/index.mjs ($id_36927477)
 // - /node_modules/vue/dist/vue.cjs.js ($id_60f0615f)
@@ -7935,7 +7764,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_13__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_13__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/layouts/default.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_13__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/layouts/default.vue"]]);
 }
 
 
@@ -8134,7 +7963,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_6__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-1a9bb128"],['__file',"/Users/achufam/Desktop/SparklingFM-main/components/Header.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_6__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-1a9bb128"],['__file',"/Users/achufam/Documents/SparklingFm/components/Header.vue"]]);
 }
 
 
@@ -8201,7 +8030,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-0d2d6594"],['__file',"/Users/achufam/Desktop/SparklingFM-main/components/Footer.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__scopeId',"data-v-0d2d6594"],['__file',"/Users/achufam/Documents/SparklingFm/components/Footer.vue"]]);
 }
 
 
@@ -8276,7 +8105,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_4__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/components/ScrollToTop.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_4__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/components/ScrollToTop.vue"]]);
 }
 
 
@@ -8311,7 +8140,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/components/Spinner.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/components/Spinner.vue"]]);
 }
 
 
@@ -8353,7 +8182,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_3__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/views/NoApiKeyView.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_3__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/views/NoApiKeyView.vue"]]);
 }
 
 
@@ -8418,7 +8247,7 @@ _sfc_main.setup = (props, ctx) => {
 }
 const __vite_ssr_import_2__ = await __vite_ssr_import__("/@id/plugin-vue:export-helper");
 
-__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Desktop/SparklingFM-main/components/ApiTokenNotFound.vue"]]);
+__vite_ssr_exports__.default = /*#__PURE__*/__vite_ssr_import_2__.default(_sfc_main, [['ssrRender',_sfc_ssrRender],['__file',"/Users/achufam/Documents/SparklingFm/components/ApiTokenNotFound.vue"]]);
 }
 
 
@@ -8435,10 +8264,10 @@ __vite_ssr_exports__.default = "a.nuxt-link-active{font-weight:700}a.nuxt-link-e
 
 
 const __modules__ = {
-  "/Users/achufam/Desktop/SparklingFM-main/node_modules/nuxt/dist/app/entry": $id_e2d4f336,
+  "/Users/achufam/Documents/SparklingFm/node_modules/nuxt/dist/app/entry": $id_9f7b5aaa,
   "/node_modules/vue/dist/vue.cjs.js": $id_60f0615f,
   "/node_modules/ohmyfetch/dist/index.mjs": $id_780217c4,
-  "/@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/paths.mjs": $id_d07d0de1,
+  "/@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/paths.mjs": $id_c021903a,
   "/node_modules/ufo/dist/index.mjs": $id_614de060,
   "/node_modules/nuxt/dist/app/index.mjs": $id_36927477,
   "/node_modules/nuxt/dist/app/nuxt.mjs": $id_e069d411,
@@ -8467,25 +8296,25 @@ const __modules__ = {
   "/node_modules/nuxt/dist/head/runtime/index.mjs": $id_b7351483,
   "/node_modules/nuxt/dist/head/runtime/composables.mjs": $id_04ea9504,
   "/node_modules/@vue/shared/dist/shared.cjs.js": $id_852b06a2,
-  "/@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/css.mjs": $id_35131a7a,
+  "/@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/css.mjs": $id_3ba285af,
   "/assets/css/bootstrap.min.css": $id_e32fc5b4,
   "/assets/css/main.css": $id_f8b2993b,
   "/assets/css/lineicons.css": $id_2fd4ffbb,
   "/assets/css/tiny-slider.css": $id_2421dc92,
-  "/@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/plugins/server.mjs": $id_e424d021,
+  "/@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/plugins/server.mjs": $id_bf0ff625,
   "/node_modules/nuxt/dist/app/plugins/preload.server.mjs": $id_9871bba0,
-  "/@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/components.plugin.mjs": $id_bde39631,
+  "/@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/components.plugin.mjs": $id_9315a766,
   "/node_modules/nuxt/dist/head/runtime/lib/vueuse-head.plugin.mjs": $id_e6f12003,
   "/node_modules/@vueuse/head/dist/index.mjs": $id_c032264e,
   "/node_modules/defu/dist/defu.mjs": $id_d7afab65,
   "/node_modules/nuxt/dist/head/runtime/plugin.mjs": $id_a2650341,
   "/node_modules/nuxt/dist/head/runtime/components.mjs": $id_b2a29d6f,
-  "/@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/meta.config.mjs": $id_11814b78,
+  "/@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/meta.config.mjs": $id_9cd777c7,
   "/node_modules/nuxt/dist/pages/runtime/router.mjs": $id_a090977b,
   "/node_modules/nuxt/dist/pages/runtime/page.mjs": $id_5fc14cdc,
   "/node_modules/nuxt/dist/pages/runtime/utils.mjs": $id_80f433aa,
   "/node_modules/nuxt/dist/app/components/utils.mjs": $id_69c52686,
-  "/@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/routes.mjs": $id_508f9761,
+  "/@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/routes.mjs": $id_a4467f4a,
   "/pages/About/index.vue?macro=true": $id_d8cdcd6a,
   "/node_modules/vue/server-renderer/index.js": $id_b215fa1c,
   "/pages/About/index.vue?vue&type=style&index=0&scoped=true&lang.css": $id_f6b91747,
@@ -8523,16 +8352,6 @@ const __modules__ = {
   "/pages/index.vue?macro=true": $id_5dd70240,
   "/views/HomeView.vue": $id_98fc61c2,
   "/components/HomepageSections/HeroSection.vue": $id_78f0332b,
-  "/assets/images/hero-img.png": $id_9173b2b8,
-  "/assets/images/slide.jpeg": $id_4decb3f8,
-  "/assets/images/slide2.jpeg": $id_86c8a96a,
-  "/assets/images/slide3.jpeg": $id_e8771658,
-  "/assets/images/slide4.jpeg": $id_27c837ea,
-  "/assets/images/slide5.jpeg": $id_ec0f6dbf,
-  "/assets/images/slide6.jpeg": $id_7ae1ec26,
-  "/assets/images/slide7.jpeg": $id_86a41cb6,
-  "/assets/images/slide8.jpeg": $id_89499150,
-  "/assets/images/slide9.jpeg": $id_c39e649b,
   "/components/HomepageSections/HeroSection.vue?vue&type=style&index=0&scoped=true&lang.css": $id_9fe3af40,
   "/components/HomepageSections/TwoColumnWithImageSection.vue": $id_8f189fcc,
   "/components/HomepageSections/FeaturesSection.vue": $id_49148211,
@@ -8554,16 +8373,16 @@ const __modules__ = {
   "/pages/blog.vue": $id_b88f8cfb,
   "/pages/index.vue": $id_cca58e97,
   "/pages/landing-page/[slug].vue": $id_1fcaf73d,
-  "/@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/router.options.mjs": $id_73a03ce0,
-  "/@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/middleware.mjs": $id_e17a4fa3,
+  "/@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/router.options.mjs": $id_b057c48e,
+  "/@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/middleware.mjs": $id_9f16a4b3,
   "/middleware/forceTrailingSlashes.global.js": $id_efa78af8,
   "/plugins/Scroll.ts": $id_21096d78,
-  "/@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/root-component.mjs": $id_6c2be3a5,
+  "/@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/root-component.mjs": $id_96ece93f,
   "/node_modules/nuxt/dist/app/components/nuxt-root.vue": $id_e9bfada3,
-  "/@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/error-component.mjs": $id_d17c5869,
+  "/@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/error-component.mjs": $id_9673c64c,
   "/node_modules/nuxt/dist/app/components/nuxt-error-page.vue": $id_8cc6d73f,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-404.vue": $id_b90d4d0f,
-  "/@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/imports.mjs": $id_7af1a9d5,
+  "/@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/imports.mjs": $id_a86add8e,
   "/node_modules/nuxt/dist/app/compat/vue-demi.mjs": $id_a8110be7,
   "/node_modules/nuxt/dist/app/compat/capi.mjs": $id_0c5717a4,
   "/node_modules/nuxt/dist/pages/runtime/composables.mjs": $id_ff6ed455,
@@ -8572,10 +8391,10 @@ const __modules__ = {
   "/node_modules/@nuxt/ui-templates/dist/templates/error-500.vue?vue&type=style&index=0&scoped=true&lang.css": $id_a2b3b709,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue": $id_bc2d74a1,
   "/node_modules/@nuxt/ui-templates/dist/templates/error-dev.vue?vue&type=style&index=0&scoped=true&lang.css": $id_2691164c,
-  "/@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/app-component.mjs": $id_b208ec03,
+  "/@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/app-component.mjs": $id_6cc2017c,
   "/node_modules/nuxt/dist/pages/runtime/app.vue": $id_6c61010f,
   "/node_modules/nuxt/dist/app/components/layout.mjs": $id_39003883,
-  "/@id/virtual:nuxt:/Users/achufam/Desktop/SparklingFM-main/.nuxt/layouts.mjs": $id_bd071dc7,
+  "/@id/virtual:nuxt:/Users/achufam/Documents/SparklingFm/.nuxt/layouts.mjs": $id_7a713443,
   "/layouts/default.vue": $id_7689e89d,
   "/components/Header.vue": $id_4e284fc3,
   "/components/Header.vue?vue&type=style&index=0&scoped=true&lang.css": $id_3a2a4a43,
@@ -8673,4 +8492,4 @@ async function __instantiateModule__(url, urlStack) {
 }
 
 
-export default await __ssrLoadModule__("/Users/achufam/Desktop/SparklingFM-main/node_modules/nuxt/dist/app/entry")
+export default await __ssrLoadModule__("/Users/achufam/Documents/SparklingFm/node_modules/nuxt/dist/app/entry")

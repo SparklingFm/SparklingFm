@@ -17,51 +17,51 @@
   <div class="hero-img">
     <div class="w3-content w3-section" style="max-width:500px">
 <div class="mySlides slideshow-container">
-          <img src="~/assets/images/hero-img.png" style="width:100%">
+          <img src="https://i.ibb.co/7YSxyHk/Group-1.jpg" style="width:100%">
           <h1 class="numbertext">1 / 10</h1>
       </div>
 
       <div class="mySlides slideshow-container">
-          <img src="~/assets/images/slide.jpeg" style="width:100%">
+          <img src="https://i.ibb.co/pb2yV0w/Whats-App-Image-2022-09-14-at-12-07-26-PM.jpg" style="width:100%">
           <h1 class="numbertext">2 / 10</h1>
       </div>
   <div class="mySlides slideshow-container">
-          <img src="~/assets/images/slide2.jpeg" style="width:100%">
+          <img src="https://i.ibb.co/8DzWQ7x/Whats-App-Image-2022-09-14-at-12-06-39-PM.jpg" style="width:100%">
           <h1 class="numbertext">3 / 10</h1>
       </div>
 
       <div class="mySlides slideshow-container">
-          <img src="~/assets/images/slide3.jpeg" style="width:100%">
+          <img src="https://i.ibb.co/YcFM8Mz/Whats-App-Image-2022-09-14-at-12-07-27-PM-2.jpg" style="width:100%">
           <h1 class="numbertext">4 / 10</h1>
       </div>
 
       <div class="mySlides slideshow-container">
-          <img src="~/assets/images/slide4.jpeg" style="width:100%">
+          <img src="https://i.ibb.co/xHkj6LM/slide5.jpg" style="width:100%">
           <h1 class="numbertext">5 / 10</h1>
       </div>
 
       <div class="mySlides slideshow-container">
-          <img src="~/assets/images/slide5.jpeg" style="width:100%">
+          <img src="https://i.ibb.co/sWsJbMH/slide3.jpg" style="width:100%">
           <h1 class="numbertext">6 / 10</h1>
       </div>
 
       <div class="mySlides slideshow-container">
-          <img src="~/assets/images/slide6.jpeg" style="width:100%">
+          <img src="https://i.ibb.co/BV3R1Vx/slide6.jpg" style="width:100%">
           <h1 class="numbertext">7 / 10</h1>
       </div>
 
       <div class="mySlides slideshow-container">
-          <img src="~/assets/images/slide7.jpeg" style="width:100%">
+          <img src="https://i.ibb.co/H21tZh1/slide4.jpg" style="width:100%">
           <h1 class="numbertext">8 / 10</h1>
       </div>
 
       <div class="mySlides slideshow-container">
-          <img src="~/assets/images/slide8.jpeg" style="width:100%">
+          <img src="https://i.ibb.co/zQxGmKc/slide8.jpg" style="width:100%">
           <h1 class="numbertext">9 / 10</h1>
       </div>
 
       <div class="mySlides slideshow-container">
-          <img src="~/assets/images/slide9.jpeg" style="width:100%">
+          <img src="https://i.ibb.co/x8x0TS7/slide9.jpg" style="width:100%">
           <h1 class="numbertext">10 / 10</h1>
       </div>
 </div>
@@ -174,6 +174,7 @@ function carousel() {
   }
   .hero-img{
     margin-top: 3rem;
+    display: none;
   }
   .hero-img img{
     width: 100%;

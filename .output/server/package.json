@@ -1,0 +1,28 @@
+{
+  "private": true,
+  "bundledDependencies": [
+    "source-map-support",
+    "h3",
+    "ohmyfetch",
+    "hookable",
+    "radix3",
+    "unenv",
+    "unstorage",
+    "pathe",
+    "node-fetch-native",
+    "scule",
+    "ohash",
+    "ufo",
+    "buttercms",
+    "destr",
+    "cookie-es",
+    "axios",
+    "source-map",
+    "buffer-from",
+    "follow-redirects",
+    "debug",
+    "supports-color",
+    "ms",
+    "has-flag"
+  ]
+}
