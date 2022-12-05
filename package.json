@@ -19,7 +19,13 @@
     "fs": "^0.0.1-security",
     "path": "^0.12.7",
     "tiny-slider": "^2.9.4",
-    "vue": "^3.2.34",
+    "vue": "^3.2.31",
     "vue-sweetalert2": "^5.0.5"
+  },
+  "config": {
+    "nuxt":{
+      "host": "0.0.0.0",
+      "port": "49000"
+    }
   }
 }
