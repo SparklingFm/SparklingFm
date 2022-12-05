@@ -2,7 +2,7 @@
   "private": true,
   "scripts": {
     "dev": "nuxi dev",
-    "build": "nuxi build",
+    "build": "nuxt build",
     "start": "node .output/server/index.mjs",
     "generate": "nuxi generate",
     "heroku-postbuild": "npm run build"
