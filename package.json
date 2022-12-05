@@ -4,7 +4,7 @@
     "dev": "nuxi dev",
     "build": "nuxt build",
     "start": "node .output/server/index.mjs",
-    "generate": "nuxi generate",
+    "generate": "nuxt generate",
     "heroku-postbuild": "npm run build"
   },
   "devDependencies": {
