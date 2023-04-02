@@ -54,7 +54,7 @@
       </div>
     </div>
     <div class="copyright">
-      <p class="text-center">© Copyright 2022 - SPARKLING FM CALABAR</p> <p class="slash">| </p><p>Powered by <a href="#0" style="color:orange;">1DEV</a></p>
+      <p class="text-center">© Copyright 2023 - SPARKLING FM CALABAR</p> <p class="slash">| </p><p>Powered by <a href="#0" style="color:orange;">1DEV</a></p>
     </div>
   </footer>
 </template>
